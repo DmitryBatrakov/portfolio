@@ -1,0 +1,38 @@
+@media (max-width: 450px) {
+    .aboutMe {
+        flex-direction: column;
+
+        .left-side {
+            width: 100%;
+
+            .text {
+                padding: 0;
+            }
+        }
+
+        .right-side {
+            width: 100%;
+
+            .pictures {
+                width: 80%;
+
+                .myPhoto {
+                    width: 100%;
+                }
+
+                .sectionBracerRight {
+                    .bracerRight {
+                        width: 13vw;
+                    }
+
+                }
+                .sectionBracerLeft{
+
+                    .bracerLeft {
+                        width: 13vw;
+                    }
+                }
+            }
+        }
+    }
+}

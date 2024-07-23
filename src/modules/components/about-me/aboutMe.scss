@@ -1,0 +1,91 @@
+.aboutMe {
+    width: 100%;
+    height: auto;
+    padding: 5vh 0;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .left-side {
+        width: 40%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .text {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px;
+            gap: 2vh;
+
+            strong {
+                font-size: clamp(2.8125rem, 2.1696rem + 3.2143vw, 4.5rem);
+                width: 100%;
+                text-align: center;
+                padding-bottom: 2vh;
+            }
+            span {
+                font-size: clamp(1.4rem, 1.4911rem + 0.3571vw, 1.875rem);
+            }
+        }
+    }
+
+    .right-side {
+        width: 40%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .pictures {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .sectionBracerRight {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+
+                .bracerRight {
+                    max-width: 90%;
+                    width: 8vw;
+                    height: auto;
+                    position: relative;
+                    right: -4vw;
+                    top: 1vh;
+                }
+            }
+
+            .sectionBracerLeft {
+                width: 100%;
+                display: flex;
+                justify-content: flex-start;
+
+                .bracerLeft {
+                    max-width: 90%;
+                    width: 8vw;
+                    height: auto;
+                    position: relative;
+                    left: -4vw;
+                    bottom: 1vh;
+                }
+            }
+
+            .myPhoto {
+                max-width: 90%;
+                width: 25vw;
+                height: 40vh;
+                // height: auto;
+
+                border: 1px solid black;
+            }
+        }
+    }
+}

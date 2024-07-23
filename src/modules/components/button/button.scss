@@ -4,10 +4,10 @@
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s;
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-right: 1rem;
+    font-weight: 700;
+    font-size: clamp(1.125rem, 1.0393rem + 0.4286vw, 1.5rem);
     color: black;
+    align-self: baseline;
 
     // background:
     // linear-gradient(127deg,
@@ -16,15 +16,17 @@
     //     rgb(4, 247, 113), rgb(4, 247, 113) 20.71%),
     // linear-gradient(336deg,
     //     rgb(0, 255, 102), rgb(2, 255, 238) 85.71%);
-    background: 
-        linear-gradient(127deg, 
-            rgb(135, 255, 247), rgb(222, 180, 255) 85.71%),
-        linear-gradient(90deg,
-             rgba(4, 247, 113), rgba(4, 247, 113) 20.71%),
-        linear-gradient(336deg, 
-            rgba(0, 255, 102), rgba(2, 255, 238) 85.71%);
+    background: linear-gradient(127deg, rgb(135, 255, 247), rgb(222, 180, 255) 85.71%),
+        linear-gradient(90deg, rgba(4, 247, 113), rgba(4, 247, 113) 20.71%),
+        linear-gradient(336deg, rgba(0, 255, 102), rgba(2, 255, 238) 85.71%);
 }
 
 .button:hover {
     opacity: 0.8;
+}
+
+@media (max-width: 450px) {
+    .button {
+        padding: 0.7rem 1.3rem;
+    }
 }

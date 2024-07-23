@@ -1,0 +1,47 @@
+.slider-section {
+    position: relative;
+    margin: 0 auto;
+    padding: 6vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+    .top-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8vh 0;
+
+        .professional-works {
+            width: 80%;
+            text-align: center;
+            font-weight: 600;
+            font-size: clamp(3.125rem, 2.9821rem + 0.9vw, 4.5rem);
+        }
+
+        .arrows-section {
+            display: flex;
+            gap: 2vw;
+
+            svg {
+                min-width: 40px;
+                max-width: 3.5vw;
+                height: auto;
+            }
+        }
+    }
+
+    .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider {
+        width: 100%;
+        max-width: 1500px;
+    }
+}

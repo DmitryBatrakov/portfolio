@@ -1,0 +1,79 @@
+@media (max-width: 450px) {
+    .render-skills {
+        width: 100%;
+
+        .common-skill {
+            width: 100px;
+            margin-left: 6vw;
+            gap: 1vw;
+
+            .skillOne {
+                font-size: 10px;
+                svg {
+                    width: 15px;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .portfolio-section {
+        padding: 6vh 0;
+        gap: 4vh;
+        height: auto;
+
+        .left-side {
+            width: 80vw;
+            gap: 2vh;
+
+            .portfolio {
+                width: 80%;
+                font-weight: 600;
+            }
+
+            .portfolio2 {
+                width: 80%;
+                gap: 2vh;
+            }
+        }
+
+        .right-side {
+            width: 80%;
+            width: 90vw;
+
+            span {
+                font-size: 1rem;
+            }
+
+            .black-square {
+                width: 100%;
+                padding: 2vh 0;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+
+                .skills {
+                    width: 90%;
+
+                    .function-tools {
+                    }
+
+                    .bracer {
+                        font-size: 1rem;
+                        margin-left: 3.5vw;
+                    }
+                    .bracer-2 {
+                        font-size: 1rem;
+                        margin: 1vh 0;
+                    }
+                }
+                .description {
+                    padding: 2vh 0;
+                    width: 90%;
+                    border-left: none;
+                    border-top: 2px solid greenyellow;
+                }
+            }
+        }
+    }
+}
