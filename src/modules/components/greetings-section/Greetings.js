@@ -46,8 +46,8 @@ export default function Greetings({ }) {
                                 <img src={iconSquares} alt="" />
                             </div>
                             <div className="peopleAndMessage">
-                                <img src={iconMessage} alt="" className="iconMessage"/>
-                                <img src={iconPeople} alt="" className="iconPeople"/>
+                                <img src={iconMessage} alt="" className="iconMessage" />
+                                <img src={iconPeople} alt="" className="iconPeople" />
                             </div>
                         </div>
                     </div>

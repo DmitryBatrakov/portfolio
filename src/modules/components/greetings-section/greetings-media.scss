@@ -58,16 +58,18 @@
 
                     .icons {
                         width: 100%;
+                        margin: 0 auto;
                         height: auto;
                         top: 30vh;
+                        left: 0;
 
                         .squares {
                             width: 100%;
                             top: 2vh;
-                            left: -25vw;
+                            left: -23vw;
 
                             img {
-                                width: 13vw;
+                                width: 15vw;
                             }
                         }
 
@@ -76,17 +78,17 @@
                             top: 20vh;
 
                             img {
-                                width: 20vw;
+                                width: 23vw;
                             }
                             .iconPeople {
                                 position: relative;
-                                top: -1vh;
+                                top: -2vh;
                                 left: -5vw;
                             }
                             .iconMessage {
                                 position: relative;
                                 top: 2vh;
-                                left: -3vw;
+                                left: 0;
                             }
                         }
                     }
