@@ -35,11 +35,12 @@ import Greetings from './modules/components/greetings-section/Greetings';
 import WorksData from './modules/components/works-section/worksData/WorksData';
 import AboutMe from './modules/components/about-me/AboutMe';
 import Footer from './modules/components/footer/Footer';
+import CodeString from './modules/components/greetings-section/greatings-data/CodeString';
+import GreetingsData from './modules/components/greetings-section/greatings-data/GreetingsData';
 
 
 function App() {
   return (
-
     <div className="App">
       <section id="greetings" className="sectionApp">
         <Greetings />

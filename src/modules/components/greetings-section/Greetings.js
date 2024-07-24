@@ -9,8 +9,10 @@ import iconSquares from '../../images/iconThreeSquares.svg';
 import myEmoji from '../../images/smileWithEye.PNG';
 import './greetings.scss';
 import './greetings-media.scss';
+import CodeString from "./greatings-data/CodeString";
+import  { codeString } from "./greatings-data/GreetingsData";
 
-export default function Greetings({ }) {
+export default function Greetings() {
 
     const buttonContext = '</contact>';
 
@@ -60,32 +62,7 @@ export default function Greetings({ }) {
                             <div className="circle purple"></div>
                         </div>
                         <div className="bottom-square">
-                            <div className="front-block">
-                                <code>
-                                    <span>body &#123;</span><br />
-                                    <span>&nbsp;&nbsp;background:</span> <br />
-                                    <span>&nbsp;&nbsp;linear-gradient(127deg,</span> <br />
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgb(2, 255, 238), rgb(154, 24, 253) 85.71%),</span><br />
-                                    <span>&nbsp;&nbsp;linear-gradient(90deg,</span> <br />
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgb(4, 247, 113), rgb(4, 247, 113) 20.71%),</span><br />
-                                    <span>&nbsp;&nbsp;linear-gradient(336deg,</span> <br />
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgb(0, 255, 102), rgb(2, 255, 238) 85.71%);</span><br />
-                                    <span>&#125;</span>
-                                </code>
-                            </div>
-                            <div className="rear-block">
-                                <code>
-                                    <span>body &#123;</span><br />
-                                    <span>&nbsp;&nbsp;background:</span> <br />
-                                    <span>&nbsp;&nbsp;linear-gradient(127deg,</span> <br />
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgb(2, 255, 238), rgb(154, 24, 253) 85.71%),</span><br />
-                                    <span>&nbsp;&nbsp;linear-gradient(90deg,</span> <br />
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgb(4, 247, 113), rgb(4, 247, 113) 20.71%),</span><br />
-                                    <span>&nbsp;&nbsp;linear-gradient(336deg,</span> <br />
-                                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgb(0, 255, 102), rgb(2, 255, 238) 85.71%);</span><br />
-                                    <span>&#125;</span>
-                                </code>
-                            </div>
+                                <CodeString codeString={codeString}/>                
                         </div>
                     </div>
                 </div>

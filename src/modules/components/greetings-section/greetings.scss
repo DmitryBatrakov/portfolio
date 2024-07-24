@@ -127,11 +127,9 @@
         }
 
         .right-side {
-            min-width: 400px;
-            width: 40%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
+            min-width: 430px;
+            width: 35%;
+            height: auto;
 
             .squares {
                 width: 100%;
@@ -148,6 +146,7 @@
                     gap: 1vw;
                     align-items: center;
                     padding: 3vh 2vw;
+                    border-bottom: 2px solid black;
 
                     .circle {
                         width: 20px;
@@ -169,49 +168,15 @@
                 .bottom-square {
                     width: 100%;
                     height: auto;
-                    border-top: 2px solid black;
-                    padding: 1vh 0;
+                   
+                    padding: 1vh 1vw;
 
-                    .front-block {
-                        width: 60%;
-                        height: auto;
-                        padding: 2vh;
-                        border: 2px solid #00ff79;
-                        border-radius: 28px;
-                        color: white;
-                        background: black;
-                        position: relative;
-                        left: 5vw;
-                        top: 0;
-                        z-index: 1;
-
-                        span {
-                            font-size: clamp(0.875rem, 0.8179rem + 0.2857vw, 1.125rem);
-                            letter-spacing: 0;
-                        }
+                    
                     }
 
-                    .rear-block {
-                        width: 50%;
-                        height: auto;
-                        padding: 2vh;
-                        border: 1px solid #00ff79;
-                        border-radius: 28px;
-                        color: white;
-                        background: black;
-                        position: relative;
-                        left: 2vw;
-                        top: -2vh;
-                        opacity: 0.9;
-
-                        span {
-                            font-size: clamp(0.6875rem, 0.6304rem + 0.2857vw, 0.9375rem);
-
-                            letter-spacing: 0;
-                        }
-                    }
+                    
                 }
             }
         }
     }
-}
+
