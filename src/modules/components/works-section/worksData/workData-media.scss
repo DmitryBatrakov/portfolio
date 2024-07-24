@@ -1,14 +1,18 @@
-.slider-section {
-    padding: 3vh 0;
+@media (max-width: 450px) {
 
-    .top-section {
-        padding: 2vh 0;
-
-        .arrows-section{
-            display: none;
+    .slider-section {
+        padding: 3vh 0;
+        
+        .top-section {
+            padding: 2vh 0;
+            
+            .arrows-section{
+                display: none;
+            }
+        }
+        .slick-dots {
+            // padding-bottom: 5vh;
         }
     }
-    .slick-dots {
-        // padding-bottom: 5vh;
-    }
 }
+    
