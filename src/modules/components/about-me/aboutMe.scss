@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    // position: absolute;
 
     .left-side {
         width: 40%;
@@ -43,23 +44,26 @@
         align-items: center;
 
         .pictures {
+            
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            position: absolute;
 
             .sectionBracerRight {
                 width: 100%;
                 display: flex;
                 justify-content: flex-end;
+                position: relative;
+                top: 5vh;
+                left: 5vw;
 
                 .bracerRight {
                     max-width: 90%;
                     width: 8vw;
                     height: auto;
-                    position: relative;
-                    right: -4vw;
-                    top: 1vh;
+                    
                 }
             }
 
@@ -67,24 +71,24 @@
                 width: 100%;
                 display: flex;
                 justify-content: flex-start;
+                position: relative;
+                top: -2vh;
+                left: -8vw;
 
                 .bracerLeft {
-                    max-width: 90%;
                     width: 8vw;
                     height: auto;
-                    position: relative;
-                    left: -4vw;
-                    bottom: 1vh;
                 }
             }
 
             .myPhoto {
-                max-width: 90%;
-                width: 25vw;
-                height: 40vh;
-                // height: auto;
+                width: 100%;
+                height: auto;
+                text-align: center;
 
-                border: 1px solid black;
+                .myEmoji {
+                    width: 20vw;
+                }
             }
         }
     }

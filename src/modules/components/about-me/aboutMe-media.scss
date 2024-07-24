@@ -12,12 +12,20 @@
 
         .right-side {
             width: 100%;
+ 
 
             .pictures {
                 width: 80%;
+                height: auto;
+                position: static;
 
                 .myPhoto {
                     width: 100%;
+
+                    .myEmoji{
+                        width: 50vw;
+                        height: auto;
+                    }
                 }
 
                 .sectionBracerRight {

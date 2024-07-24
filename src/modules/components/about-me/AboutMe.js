@@ -2,6 +2,7 @@ import bracerRight from '../../images/bracerRight.svg';
 import bracerLeft from '../../images/bracerLeft.svg';
 import './aboutMe.scss';
 import './aboutMe-media.scss';
+import myEmoji from '../../images/hello.PNG';
 
 export default function AboutMe() {
     return (
@@ -24,7 +25,7 @@ export default function AboutMe() {
                         <img src={bracerRight} alt="arrow" className="bracerRight" />
                     </div>
                     <div className="myPhoto">
-                        {/* <img src="" alt="my Photo" className="myPhoto" /> */}
+                        <img src={myEmoji} alt="my Photo" className="myEmoji" />
                     </div>
                     <div className="sectionBracerLeft">
                         <img src={bracerLeft} alt="arrow" className="bracerLeft" />
