@@ -20,12 +20,12 @@ export default function Header() {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         }
-    });
-    
+    }, []);
+
     useEffect(() => {
         if (isMenuOpen === true) {
             document.body.style.overflow = 'hidden';
-
+            
             return () => {
                 document.body.style.overflow = 'unset';
             };
