@@ -1,3 +1,4 @@
+$color-greenyellow: rgb(172, 254, 47);
 @media (max-width: 450px) {
     .render-skills {
         width: 100%;
@@ -20,9 +21,11 @@
     .portfolio-section {
         padding: 6vh 0;
         gap: 4vh;
+        width: 100%;
         height: auto;
 
         .left-side {
+            max-width: 100%;
             width: 80vw;
             gap: 2vh;
 
@@ -38,22 +41,25 @@
         }
 
         .right-side {
-            width: 80%;
-            width: 90vw;
-
-            span {
-                font-size: 1rem;
-            }
+            width: 100%;
+            min-width: 100%;
 
             .black-square {
-                width: 100%;
+                width: 90%;
                 padding: 2vh 0;
                 justify-content: flex-start;
                 align-items: center;
                 flex-direction: column;
+                background: transparent;
+                border: none;
+                gap: 2vh;
 
                 .skills {
                     width: 90%;
+                    border: 3px solid $color-greenyellow;
+                    background: black;
+                    padding: 3vh 7vw;
+                    border-radius: 30px;
 
                     .function-tools {
                     }
@@ -67,11 +73,23 @@
                         margin: 1vh 0;
                     }
                 }
+
                 .description {
                     padding: 2vh 0;
                     width: 90%;
-                    border-left: none;
-                    border-top: 2px solid greenyellow;
+                    border: 3px solid $color-greenyellow;
+                    border-radius: 30px;
+                    background: black;
+                    padding: 3vh 7vw;
+                    
+                    .course {
+                        .education {
+                            text-align: center;
+                        }
+                        .descriptionOfCourse {
+                            gap: 4vw;
+                        }
+                    }
                 }
             }
         }

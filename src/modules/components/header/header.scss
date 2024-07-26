@@ -1,6 +1,10 @@
 .nav_bar {
-    width: 90%;
+    width: 100%;
+}
+
+.desktop-menu {
     margin: 0 auto;
+    width: 90%;
     height: 10vh;
     display: flex;
     justify-content: space-around;
@@ -12,6 +16,7 @@
         text-decoration: none;
         text-transform: uppercase;
         color: black;
+        font-size: 1.2em;
 
         &:first-of-type {
             color: black;
@@ -20,5 +25,12 @@
     }
 }
 
-@media (max-width: 450px) {
+.burger-menu {
+    display: none;
 }
+
+.nav_menu {
+   display: none;
+}
+
+

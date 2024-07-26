@@ -147,7 +147,7 @@ const WorksData = () => {
     return (
         <section className="slider-section">
             <div className="top-section">
-                <span className="professional-works">Professional Works</span>
+                <span className="professional-works">Work Portfolio</span>
                 <div className="arrows-section">
                     <div onClick={handlePrevClick} className="arrow"><HiOutlineArrowLongLeft /></div>
                     <div onClick={handleNextClick}><HiOutlineArrowLongRight /></div>

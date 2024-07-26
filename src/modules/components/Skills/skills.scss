@@ -13,15 +13,12 @@ $color-test: rgb(27, 169, 245);
     font-weight: 400;
     justify-content: flex-start;
     height: auto;
-    font-size: clamp(0.9375rem, 0.8661rem + 0.3571vw, 1.25rem);
     margin-left: 3.5vw;
     gap: 0.3vw;
 
     .iconSkill {
-        font-size: 24px;
+       
     }
-
-    // .nameAndValue{
 
     .name {
         color: $color-liteBlue;
@@ -29,14 +26,14 @@ $color-test: rgb(27, 169, 245);
     .value {
         color: $color-purple;
     }
-    // }
+
     .string {
         color: $color-purple;
     }
 }
 
 .portfolio-section {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +42,7 @@ $color-test: rgb(27, 169, 245);
     padding: 5vh 0;
 
     .left-side {
+        max-width: 50%;
         width: 50%;
         height: auto;
         min-width: 200px;
@@ -74,17 +72,18 @@ $color-test: rgb(27, 169, 245);
     }
 
     .right-side {
-        min-width: 200px;
-        width: 50%;
+        min-width: 500px;
+        max-width: 50%;
         height: auto;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
 
         .black-square {
-            width: 80%;
-            display: flex;
-            padding: 20px 30px;
+            // width: 80%;
+            display: flex;       
+            height: auto;
             border: 3px solid $color-greenyellow;
             border-radius: 30px;
             background: $color-black;
@@ -95,9 +94,11 @@ $color-test: rgb(27, 169, 245);
                 height: auto;
                 display: flex;
                 flex-direction: column;
+                padding: 2vh 2vw;
+                font-size: clamp(1rem, 0.8504rem + 0.3717vw, 1.25rem);
 
                 .title-skills {
-                    font-size: clamp(0.9375rem, 0.8661rem + 0.3571vw, 1.25rem);
+
                     .const {
                         color: $color-purple;
                     }
@@ -110,15 +111,10 @@ $color-test: rgb(27, 169, 245);
                     .bracers {
                         color: $color-yellow;
                     }
-                    // .skill {
-                    //     color: $color-blue;
-                    // }
                 }
 
                 .function-skills,
                 .function-tools {
-                    font-size: clamp(0.9375rem, 0.8661rem + 0.3571vw, 1.25rem);
-
                     margin-left: 1.5vw;
 
                     .skill {
@@ -132,17 +128,15 @@ $color-test: rgb(27, 169, 245);
                 .bracer {
                     color: $color-purple;
                     margin-left: 1.7vw;
-                    font-size: 1.2em;
                 }
                 .bracer-2 {
                     color: $color-yellow;
-                    font-size: 1.2em;
                 }
             }
 
             .description {
-                width: 50%;
-                height: inherit;
+                width: 60%;
+                height: auto;
                 border-left: 2px solid $color-greenyellow;
                 color: white;
                 display: flex;
@@ -151,11 +145,39 @@ $color-test: rgb(27, 169, 245);
                 padding: 30px;
 
                 .course {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 2vh;
+
                     .education {
-                        font-size: clamp(1.5625rem, 1.4196rem + 0.7143vw, 2.1875rem);
+                        display: block;
+                        font-size: clamp(1.5625rem, 1.4196rem + 0.7143vw, 2rem);
                     }
                     .descriptionOfCourse {
-                        font-size: clamp(1.25rem, 1.25rem + 0vw, 1.25rem);
+                        width: 100%;
+                        display: flex;
+                        gap: 1vw;
+                        font-size: clamp(1.25rem, 1rem + 0vw, 1rem);
+                    
+                        .circle{
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                        }
+                        .description-text{
+                            width: 90%;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2vh;
+                        }
+
+                        .green{
+                            background: $color-greenyellow;
+                        }
+                        .purple{
+                            background: $color-purple;
+                        }
                     }
                 }
             }

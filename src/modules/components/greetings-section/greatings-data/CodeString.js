@@ -317,7 +317,7 @@ const RenderBlock = ({ codeString, index }) => (
             bodyOfGradient={codeString.bodyOfLinerGradient1}
             comma={codeString.comma}
             gradientClass="secondGradient"
-        />
+        /> 
         <RgbLine 
             rgb={codeString.rgb}
             bracketLeft={codeString.bracketLeft}

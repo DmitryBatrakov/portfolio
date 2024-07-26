@@ -37,7 +37,7 @@ import AboutMe from './modules/components/about-me/AboutMe';
 import Footer from './modules/components/footer/Footer';
 import CodeString from './modules/components/greetings-section/greatings-data/CodeString';
 import GreetingsData from './modules/components/greetings-section/greatings-data/GreetingsData';
-
+import Header from './modules/components/header/Header';
 
 function App() {
   return (

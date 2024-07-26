@@ -7,6 +7,10 @@
 
             .text {
                 padding: 0;
+
+                strong{
+                    text-align: center;
+                }
             }
         }
 
@@ -15,7 +19,7 @@
  
 
             .pictures {
-                width: 80%;
+                width: 70%;
                 height: auto;
                 position: static;
 
@@ -30,14 +34,14 @@
 
                 .sectionBracerRight {
                     .bracerRight {
-                        width: 13vw;
+                        width: 18vw;
                     }
 
                 }
                 .sectionBracerLeft{
 
                     .bracerLeft {
-                        width: 13vw;
+                        width: 18vw;
                     }
                 }
             }

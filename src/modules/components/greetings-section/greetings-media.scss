@@ -1,13 +1,14 @@
 @media (max-width: 480px) {
     .greetings-section {
-        height: 90vh;
+        height: 92vh;
+        min-height: 70vh;
 
         .wrapper-top {
-            margin: 0;
             width: 100%;
             justify-content: center;
             align-items: center;
-            padding: 2vh 0;
+            padding: 1vh 0;
+            margin-top: 8vh;
 
             .left-side {
                 min-width: 320px;

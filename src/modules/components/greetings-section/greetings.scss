@@ -1,6 +1,7 @@
 .greetings-section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background: #fdf8f8;
 
     .wrapper-top {
@@ -11,6 +12,7 @@
         margin: 0 auto;
         height: auto;
         padding: 5vh 0;
+        gap: 2vw;
 
         .left-side {
             min-width: 400px;
@@ -130,9 +132,11 @@
             min-width: 430px;
             width: 35%;
             height: auto;
+            // padding-top: 5vh;
 
             .squares {
                 width: 100%;
+                min-width: 500px;
                 height: auto;
                 border-radius: 30px;
                 border: 2px solid black;
@@ -168,15 +172,15 @@
                 .bottom-square {
                     width: 100%;
                     height: auto;
-                   
-                    padding: 1vh 1vw;
+
+                    // padding: 1vh 1vw;
 
                     
                     }
 
                     
                 }
-            }
         }
     }
+}
 

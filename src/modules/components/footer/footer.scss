@@ -13,7 +13,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1vh;
+        gap: 3vh;
 
         .information {
             width: 50%;
@@ -25,11 +25,16 @@
             gap: 1vh;
 
             .logo {
-                font-size: 1.7em;
-                font-weight: 500;
+                font-size: 2.2em;
+                font-weight: 700;
+                background: linear-gradient(45deg, rgb(4, 247, 150), rgb(4, 247, 243) 33%, rgb(100, 33, 255));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
             }
 
-            span {
+            .contactMe {
+                font-weight: 500;
+                font-size: clamp(0.9375rem, 0.9026rem + 0.1487vw, 1.0625rem);
             }
         }
 
@@ -37,7 +42,18 @@
             width: 50%;
             display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
+            gap: 2vw;
+
+            .icon {
+                font-size: clamp(1.875rem, 1.7879rem + 0.3717vw, 2.1875rem);
+                color: black;
+
+                &:hover {
+                    cursor: cursor;
+                    scale: 1.1;
+                }
+            }
         }
     }
 
@@ -63,19 +79,16 @@
 
                 .link {
                     text-decoration: none;
-                }
-
-                li {
-                    list-style-type: none;
-                }
-
-                span {
-                    font-size: 1.5em;
-                }
-
-                li {
                     color: rgb(82, 82, 82);
-                    font-weight: 400;
+                    font-size: clamp(0.9375rem, 0.9026rem + 0.1487vw, 1.0625rem);
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: rgb(82, 82, 82);
+                    }
+                }
+                span {
+                    font-size: clamp(1rem, 0.8432rem + 0.6691vw, 1.5625rem);
                 }
             }
         }

@@ -18,7 +18,7 @@ export default function Greetings() {
 
     return (
         <section className="greetings-section">
-            <Header />
+            <Header/>
             <div className="wrapper-top">
                 <div className="left-side">
                     <h1 className="myName">Dmitry Batrakov</h1>

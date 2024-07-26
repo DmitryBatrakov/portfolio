@@ -1,0 +1,118 @@
+@media screen and (max-width: 768px) {
+    .desktop-menu {
+        display: none; /* Скрыть обычное меню на маленьких экранах */
+    }
+
+    .burger-menu {
+        width: 100%;
+        height: 4vh;
+        padding: 2vh 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fdf8f8;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 101;
+        transition: 0.3s linear;
+
+        .link {
+            width: 45%;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-size: 2em;
+            font-weight: 600;
+            text-align: left;
+        }
+
+        .burger-button-section {
+            width: 45%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .burger-button {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width: 25px; /* Ширина кнопки */
+                height: 25px; /* Высота кнопки */
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.5s ease;
+
+                .bar {
+                    width: 100%;
+                    height: 2.5px; /* Толщина полосок */
+                    background-color: black; /* Цвет полосок */
+                    transition: all 0.3s ease; /* Переход для анимации */
+                }
+
+                &.open {
+                    .bar:nth-child(1) {
+                        transform: rotate(45deg) translate(6px, 5px); /* Верхняя полоска вращается */
+                    }
+
+                    .bar:nth-child(2) {
+                        opacity: 0; /* Средняя полоска исчезает */
+                    }
+
+                    .bar:nth-child(3) {
+                        transform: rotate(-45deg) translate(6px, -6px); /* Нижняя полоска вращается */
+                    }
+                }
+            }
+        }
+    }
+
+    .nav_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vh;
+        width: 100%;
+        height: auto;
+        padding: 2vh 0;
+        top: 8vh;
+        position: fixed;
+        left: 0;
+        left: 0;
+        width: 100%;
+        z-index: 101;
+        background: #fdf8f8;
+        box-shadow: 0 10px 20px -10px rgb(0, 0, 0);
+        border-top: 1px solid rgb(95, 95, 95);
+
+
+        .link {
+            width: 100%;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-size: 1em;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+    .nav_menu.shrink {
+        top: 6vh;
+    }
+
+    .burger-menu.shrink {
+        height: 2vh;
+        box-shadow: 0 0 15px 1px black;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный цвет */
+        z-index: 100; /* Убедитесь, что затемнение выше других элементов */
+    }
+}

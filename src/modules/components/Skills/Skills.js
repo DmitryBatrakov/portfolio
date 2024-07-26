@@ -184,18 +184,25 @@ function Skills() {
                         </div>
                     </div>
                     <div className="description">
-                        {/* <div className="education">
-                        </div> */}
                         <div className="course">
                             <span className="education">Education</span>
                             <div className="descriptionOfCourse">
-                                <div className="circle"></div>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum itaque fugit, dolores voluptas voluptatem nemo quae, quas pariatur praesentium ab, quam eos unde? Illum, fugiat tempore eveniet nam quisquam libero.</span>
+                                <div className="circle green"></div>
+                                <div className="description-text">
+                                    <span> Programming & Software Engineering FULL STACK DEVELOPER</span>
+                                    <span>
+                                        I completed a 506-hour course where I learned web development with HTML,
+                                        CSS, and JavaScript, and gained proficiency in frameworks like React.js and
+                                        Node.js. I also worked with SQL and NoSQL databases and developed skills in
+                                        creating and testing web applications. These skills enable me to efficiently
+                                        build and maintain fully functional web apps.
+                                    </span>
+                                </div>
                             </div>
-                            <div className="descriptionOfCourse">
-                                <div className="circle"></div>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum itaque fugit, dolores voluptas voluptatem nemo quae, quas pariatur praesentium ab, quam eos unde? Illum, fugiat tempore eveniet nam quisquam libero.</span>
-                            </div>
+                            {/* <div className="descriptionOfCourse">
+                                <div className="circle purple"></div>
+                                <div className="description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum itaque fugit, dolores voluptas voluptatem nemo quae, quas pariatur praesentium ab, quam eos unde? Illum, fugiat tempore eveniet nam quisquam libero.</div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
