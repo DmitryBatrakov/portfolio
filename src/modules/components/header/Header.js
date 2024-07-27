@@ -2,6 +2,7 @@ import './header.scss';
 import './header-media.scss';
 import React, { useEffect, useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import DownloadButton from '../download-button/DownloadButton';
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

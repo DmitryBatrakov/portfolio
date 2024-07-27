@@ -1,6 +1,4 @@
-// import { useState } from "react";
 import Button from "../button/Button";
-// import Header from "../header/Header";
 import bracerLeft from '../../images/iconGreenBracerLeft.svg';
 import bracerRight from '../../images/iconGreenBracerRight.svg';
 import iconPeople from '../../images/iconPeople.svg';
@@ -9,8 +7,9 @@ import iconSquares from '../../images/iconThreeSquares.svg';
 import myEmoji from '../../images/smileWithEye.PNG';
 import './greetings.scss';
 import './greetings-media.scss';
-import CodeString from "./greatings-data/CodeString";
-import  { codeString } from "./greatings-data/GreetingsData";
+import CodeString from "./greetings-data/CodeString";
+import { codeString } from "./greetings-data/GreetingsData";
+import DownloadButton from "../download-button/DownloadButton";
 
 export default function Greetings() {
 
@@ -18,10 +17,12 @@ export default function Greetings() {
 
     return (
         <section className="greetings-section">
-            {/* <Header/> */}
             <div className="wrapper-top">
                 <div className="left-side">
-                    <h1 className="myName">Dmitry Batrakov</h1>
+                    <div className="name">
+                        <h1 className="myName">Dmitry Batrakov</h1>
+                        <DownloadButton />
+                    </div>
                     <div className="frontEnd">
                         <span className="item1">Developer {`{`}</span>
                         <span className="item2">Front End {`}`}</span>
@@ -62,7 +63,7 @@ export default function Greetings() {
                             <div className="circle purple"></div>
                         </div>
                         <div className="bottom-square">
-                                <CodeString codeString={codeString}/>                
+                            <CodeString codeString={codeString} />
                         </div>
                     </div>
                 </div>

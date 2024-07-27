@@ -1,6 +1,5 @@
 import React from "react";
 import CodeString from "./CodeString";
-import Greetings from "../Greetings";
 
 const data = [1, 2, 3];
 
@@ -40,7 +39,6 @@ const GreetingsData = () => {
                     />
                 )
             })};
-
         </section>
     )
 }
