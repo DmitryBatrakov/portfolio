@@ -22,6 +22,7 @@ const works = [
         priority: 'this.priority = 1;',
         completed: 'this.completed = false;',
         bracer: ' } ',
+        url:'https://matchbox-zanp.onrender.com'
     },
     {
         example: '{Example work 2}',
@@ -34,6 +35,7 @@ const works = [
         priority: 'this.priority = 2;',
         completed: 'this.completed = true;',
         bracer: ' } ',
+        url: 'https://todo-xdae.onrender.com'
     },
     {
         example: '{Example work 3}',
@@ -46,6 +48,7 @@ const works = [
         priority: 'this.priority = 3;',
         completed: 'this.completed = true;',
         bracer: ' } ',
+        url: ''
     },
     {
         example: '{Example work 4}',
@@ -58,6 +61,7 @@ const works = [
         priority: 'this.priority = ;',
         completed: 'this.completed = false;',
         bracer: ' } ',
+        url: ''
     },
     {
         example: '{Example work 5}',
@@ -70,6 +74,7 @@ const works = [
         priority: 'this.priority = ;',
         completed: 'this.completed = false;',
         bracer: ' } ',
+        url: ''
     },
     {
         example: '{Example work 6}',
@@ -82,6 +87,7 @@ const works = [
         priority: 'this.priority = ;',
         completed: 'this.completed = false;',
         bracer: ' } ',
+        url: ''
     },
 
 ];

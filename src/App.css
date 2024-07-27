@@ -8,14 +8,11 @@
 
 .section{
   width: 100vw;
+  margin: 0 ;
+  padding: 0;
+
 }
 
-
-/* *,
-*::after,
-*::before {
-  outline: 1px solid red;
-} */
 
 *{
   font-family: "Barlow-Regular";

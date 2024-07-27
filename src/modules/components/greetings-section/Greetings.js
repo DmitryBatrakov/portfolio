@@ -1,6 +1,6 @@
 // import { useState } from "react";
 import Button from "../button/Button";
-import Header from "../header/Header";
+// import Header from "../header/Header";
 import bracerLeft from '../../images/iconGreenBracerLeft.svg';
 import bracerRight from '../../images/iconGreenBracerRight.svg';
 import iconPeople from '../../images/iconPeople.svg';
@@ -18,7 +18,7 @@ export default function Greetings() {
 
     return (
         <section className="greetings-section">
-            <Header/>
+            {/* <Header/> */}
             <div className="wrapper-top">
                 <div className="left-side">
                     <h1 className="myName">Dmitry Batrakov</h1>

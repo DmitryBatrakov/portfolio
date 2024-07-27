@@ -37,16 +37,16 @@ export default function Header() {
     return (
         <header className="nav_bar">
             <nav className="desktop-menu">
-                <Link smooth to="#greetings" className="link">LOGO</Link>
+                <Link smooth to="/" className="link">LOGO</Link>
                 <Link smooth to="#works" className="link">works</Link>
                 <Link smooth to="#skills" className="link">portfolio</Link>
                 <Link smooth to="#about" className="link">about</Link>
                 <Link smooth to="#contact" className="link">contact</Link>
             </nav>
-            <div className={`burger-menu ${isShrink ? 'shrink' : ''}`} onClick={toggleMenu}>
+            <div className={`burger-menu ${isShrink ? 'shrink' : ''}`} >
                 <Link smooth to="#greetings" className="link">LOGO</Link>
                 <div className="burger-button-section">
-                    <div className={`burger-button ${isMenuOpen ? 'open' : ''}`}>
+                    <div className={`burger-button ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
                         <div className="bar"></div>
                         <div className="bar"></div>
                         <div className="bar"></div>
