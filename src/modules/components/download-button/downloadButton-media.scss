@@ -1,15 +1,17 @@
 @media (max-width: 480px) {
 
     .download-button-section{
+        display: block;
 
         .download-button{
+
             width: 50px;
             height: 50px;
             font-size: 2em;
             position: fixed;
             right: 6vw;
             bottom: 3vh;
-
+            margin: 0;
         }
         .shadow{
             display: none;
