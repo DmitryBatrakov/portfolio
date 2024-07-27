@@ -1,6 +1,6 @@
 {
-  "short_name": "Hi there, My name is Dima, abd this my portfolio",
-  "name": "",
+  "short_name": "Portfolio",
+  "name": "Hi there, My name is Dima, abd this my portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "callMe.PNG",
+      "src": "./callMe.PNG",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "callMe.PNG",
+      "src": "./callMe.PNG",
       "type": "image/png",
       "sizes": "512x512"
     }
