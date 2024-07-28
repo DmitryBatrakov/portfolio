@@ -3,7 +3,11 @@
         padding: 4vh 2vw;
 
         .button {
-            margin-left: 3.2vw;
+            // margin-left: 3.2vw;
         }
+    }
+
+    .array::before{
+        display: none;
     }
 }

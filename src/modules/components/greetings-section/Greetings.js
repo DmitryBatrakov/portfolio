@@ -7,6 +7,7 @@ import iconSquares from '../../images/iconThreeSquares.svg';
 import myEmoji from '../../images/smileWithEye.PNG';
 import './greetings.scss';
 import './greetings-media.scss';
+import '../animations/animations.scss';
 import CodeString from "./greetings-data/CodeString";
 import { codeString } from "./greetings-data/GreetingsData";
 import DownloadButton from "../download-button/DownloadButton";
@@ -21,6 +22,24 @@ export default function Greetings() {
                 <div className="left-side">
                     <div className="name">
                         <h1 className="myName">Dmitry Batrakov</h1>
+                        {/* <div className="firstName">
+                            <span className="letter myName">D</span>
+                            <span className="letter">m</span>
+                            <span className="letter">i</span>
+                            <span className="letter">t</span>
+                            <span className="letter">r</span>
+                            <span className="letter">y</span>
+                        </div>
+                        <div className="secondName">
+                            <span className="letter">B</span>
+                            <span className="letter">a</span>
+                            <span className="letter">t</span>
+                            <span className="letter">r</span>
+                            <span className="letter">a</span>
+                            <span className="letter">k</span>
+                            <span className="letter">o</span>
+                            <span className="letter">v</span>
+                        </div> */}
                         <DownloadButton />
                     </div>
                     <div className="frontEnd">

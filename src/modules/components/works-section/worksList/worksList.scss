@@ -1,11 +1,11 @@
-$color-liteBlue: rgb(179, 235, 255);
-$color-litePurple: rgb(117, 117, 212);
-$color-purple: rgb(204, 95, 255);
-$color-yellow: rgb(255, 213, 0);
-$color-gray-light: rgb(212, 212, 212);
-$color-black: rgb(11, 11, 11);
-$color-greenyellow: rgb(172, 254, 47);
-$color-test: rgb(27, 169, 245);
+$color-lightPurple: #9669d0;
+$color-yellow: #f7be01;
+$color-lightBlue: #00d1ff;
+$color-pink: #f6005a;
+$color-lightGrey: #9b9b9b;
+$color-purple: #711edc;
+$color-lightGreen: #53ea9a;
+$color-orange: #d84327;
 
 .work-section {
     max-width: 1720px;
@@ -22,7 +22,7 @@ $color-test: rgb(27, 169, 245);
             width: 100%;
             text-align: center;
             padding: 2vh 0;
-            font-size: clamp(2.1875rem, 2.0358rem + 0.6472vw, 2.8125rem);
+            font-size: clamp(2.6rem, 2.0358rem + 0.6472vw, 2.8125rem);
             font-weight: 600;
             white-space: nowrap;
             background: linear-gradient(45deg, rgb(4, 247, 150), rgb(4, 247, 243) 33%, rgb(100, 33, 255));
@@ -40,32 +40,32 @@ $color-test: rgb(27, 169, 245);
             border: 2px solid green;
             border-radius: 15px;
             position: relative;
-            font-size: 0.8em;
+            font-size: clamp(0.9rem, 0.8053rem + 0.2974vw, 1.125rem);
 
             .circles {
                 width: 100%;
                 height: 6vh;
                 border-bottom: 2px solid green;
                 display: flex;
-                gap: 0.5vw;
+                gap: 10px;
 
                 .circle {
                     width: 15px;
                     height: 15px;
                     border-radius: 50%;
                     position: relative;
-                    top: 1vh;
-                    left: 1vw;
+                    top: 15px;
+                    left: 20px;
                 }
 
                 .green {
-                    background: green;
+                    background: $color-lightGreen;
                 }
                 .blue {
-                    background: blue;
+                    background: $color-lightBlue;
                 }
                 .purple {
-                    background: purple;
+                    background: $color-pink;
                 }
             }
 
@@ -73,14 +73,86 @@ $color-test: rgb(27, 169, 245);
                 display: flex;
                 flex-direction: column;
                 gap: 0.5vh;
-                padding: 2vh 1vw;
+                padding: 20px 25px;
+                font-weight: 600;
 
-                .class {
-                    color: $color-yellow;
-                }
+                // .class {
+                //     color: $color-yellow;
+                // }
 
                 .button {
                     margin-top: 2vh;
+                }
+                .line {
+                    margin-left: 55px;
+
+                    .this {
+                        color: $color-pink;
+                    }
+                    .dot {
+                        color: $color-purple;
+                    }
+                    .name {
+                        color: $color-lightGrey;
+                    }
+                    .equals {
+                        color: $color-purple;
+                        margin: 0 5px;
+                    }
+                    .doubleQuote1 {
+                        color: $color-lightBlue;
+                    }
+                    .text {
+                        color: $color-lightGreen;
+                        margin: 0 2px;
+                    }
+                    .doubleQuote2 {
+                        color: $color-lightBlue;
+                    }
+                    .semicolon {
+                        color: $color-lightBlue;
+                        margin-left: 2px;
+                    }
+                }
+
+                .classLine {
+                    display: flex;
+                    gap: 0.3vw;
+
+                    .model {
+                        color: $color-lightPurple;
+                    }
+
+                    .className {
+                        color: $color-yellow;
+                    }
+                    .braceLeftYellow {
+                        color: $color-yellow;
+                    }
+                }
+
+                .constructorLine {
+                    display: flex;
+                    gap: 0.3vw;
+                    margin-left: 25px;
+
+                    .constructorName {
+                        color: $color-lightBlue;
+                    }
+                    .brackets {
+                        color: $color-lightPurple;
+                    }
+                    .braceLeftPurple {
+                        color: $color-lightPurple;
+                    }
+                }
+
+                .braceRight1 {
+                    color: $color-lightPurple;
+                    margin-left: 25px;
+                }
+                .braceRight2 {
+                    color: $color-yellow;
                 }
             }
         }

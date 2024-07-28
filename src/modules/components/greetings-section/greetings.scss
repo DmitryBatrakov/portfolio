@@ -1,8 +1,17 @@
+$color-lightGreen: rgba(0, 255, 121, 1);
+$color-blue: rgba(0, 209, 255, 1);
+$color-purple: rgba(113, 33, 216, 1);
+
 .greetings-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 92vh;
     height: auto;
     background: #fdf8f8;
+    padding-top: 8vh;
+
+    animation-name: opacity;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
 
     .wrapper-top {
         display: flex;
@@ -22,24 +31,64 @@
             justify-content: flex-start;
             gap: 4vh;
             position: relative;
+            animation-name: slideFromLeft;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
 
-            .name{
+            .name {
                 width: 85%;
                 height: auto;
                 display: flex;
+                animation-name: slideFromLeft;
+                animation-duration: 2.5s;
+                animation-iteration-count: 1;
+                
+
+                &:last-child{
+                    animation: none;
+                }
 
                 .myName {
-                    // font-size: clamp(3rem, 2.6143rem + 1.9286vw, 4.6875rem);
                     font-size: clamp(2.8125rem, 2.3839rem + 2.1429vw, 4.6875rem);
                     margin: 0;
                     margin-right: 3vw;
                     white-space: nowrap;
                 }
+                //---------------------------------
+                // .firstName {
+                //     font-size: clamp(2.8125rem, 2.3839rem + 2.1429vw, 4.6875rem);
+                //     font-weight: 600;
+                //     width: 100%;
+                //     animation-name: letter;
+                //     animation-duration: 2s;
+                //     animation-iteration-count: infinite;
+
+                //     .letter{
+                //         transition: .6s;
+
+                //         &:hover{
+                //             animation-name: letter;
+                //             color: red;
+                //             cursor: pointer;
+                //         }
+                //     }
+
+                // }
+                // .secondName {
+                //     font-size: clamp(2.8125rem, 2.3839rem + 2.1429vw, 4.6875rem);
+                //     font-weight: 600;
+                //     margin-right: 3vw;
+                // }
+                //---------------------------------
             }
-                
+
             .frontEnd {
                 font-size: clamp(1.875rem, 1.7321rem + 0.7143vw, 2.5rem);
                 font-weight: 600;
+
+                animation-name: slideFromLeft;
+                animation-duration: 3s;
+                animation-iteration-count: 1;
 
                 .item2 {
                     background: linear-gradient(45deg, rgb(4, 247, 150), rgb(4, 247, 243) 33%, rgb(100, 33, 255));
@@ -140,6 +189,9 @@
             width: 35%;
             height: auto;
             // padding-top: 5vh;
+            animation-name: slideFromRight;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
 
             .squares {
                 width: 100%;
@@ -148,7 +200,7 @@
                 border-radius: 30px;
                 border: 2px solid black;
 
-                background: linear-gradient(127deg, rgb(135, 255, 247), rgb(222, 180, 255) 85.71%),
+                background: linear-gradient(127deg, rgb(135, 255, 231), rgb(222, 180, 255) 85.71%),
                     linear-gradient(90deg, rgba(4, 247, 113), rgba(4, 247, 113) 20.71%),
                     linear-gradient(336deg, rgba(0, 255, 102), rgba(2, 255, 238) 85.71%);
 
@@ -166,13 +218,13 @@
                     }
 
                     .green {
-                        background: green;
+                        background: $color-lightGreen;
                     }
                     .blue {
-                        background: blue;
+                        background: $color-blue;
                     }
                     .purple {
-                        background: purple;
+                        background: $color-purple;
                     }
                 }
 
@@ -181,25 +233,8 @@
                     height: auto;
 
                     // padding: 1vh 1vw;
-
-                    
-                    }
-
-                    
                 }
+            }
         }
     }
 }
-
-@keyframes jump{
-    0%{transform: translateY(0)}
-    5%{transform: translateY(3px)}
-    // 10%{transform: translateY(0)}
-    15%{transform: translateY(-15px)}
-    // 20%{transform: translateY(0)}
-    25%{transform: translateY(3px)}
-    // 30%{transform: translateY(0);}
-    35%{transform: translateY(-15px)} 
-    40%{transform: translateY(0)} 
-    100%{transform: translateY(0)}  
-} 

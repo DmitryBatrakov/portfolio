@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './modules/components/animations/animations.scss';
 import Skills from './modules/components/Skills/Skills';
 import Greetings from './modules/components/greetings-section/Greetings';
 import WorksData from './modules/components/works-section/worksData/WorksData';

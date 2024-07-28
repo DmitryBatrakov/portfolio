@@ -38,7 +38,7 @@ export default function Header() {
     return (
         <header className="nav_bar">
             <nav className="desktop-menu">
-                <Link smooth to="/" className="link">LOGO</Link>
+                <Link smooth to="#header" className="link">LOGO</Link>
                 <Link smooth to="#works" className="link">works</Link>
                 <Link smooth to="#skills" className="link">portfolio</Link>
                 <Link smooth to="#about" className="link">about</Link>

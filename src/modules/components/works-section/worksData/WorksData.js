@@ -8,89 +8,236 @@ import 'slick-carousel/slick/slick-theme.css';
 import './workData.scss';
 import './workData-media.scss';
 
-
-
 const works = [
     {
-        example: '{Example work 1}',
-        class: 'class Tinder-app {',
-        constructor: 'constructor() {',
-        name: 'this.name = "First App";',
-        type: 'this.type = "Website";',
-        description: 'this.description = "Under construction";',
-        date: 'this.date = "2023";',
-        priority: 'this.priority = 1;',
-        completed: 'this.completed = false;',
-        bracer: ' } ',
-        url:'https://matchbox-zanp.onrender.com'
-    },
-    {
-        example: '{Example work 2}',
-        class: 'class 2 {',
-        constructor: 'constructor() {',
-        name: 'this.name = "Second App";',
-        type: 'this.type = "Website";',
-        description: 'this.description = "Under construction";',
-        date: 'this.date = "2023";',
-        priority: 'this.priority = 2;',
-        completed: 'this.completed = true;',
-        bracer: ' } ',
-        url: 'https://todo-xdae.onrender.com'
-    },
-    {
-        example: '{Example work 3}',
-        class: 'class 3 {',
-        constructor: 'constructor() {',
-        name: 'this.name = "Third App";',
-        type: 'this.type = "Website";',
-        description: 'this.description = "Under construction";',
-        date: 'this.date = "2023";',
-        priority: 'this.priority = 3;',
-        completed: 'this.completed = true;',
-        bracer: ' } ',
-        url: ''
-    },
-    {
-        example: '{Example work 4}',
-        class: 'Project in development {',
-        constructor: 'constructor() {',
-        name: 'this.name = "soon";',
-        type: 'this.type = "soon";',
-        description: 'this.description = "soon";',
-        date: 'this.date = "soon";',
-        priority: 'this.priority = ;',
-        completed: 'this.completed = false;',
-        bracer: ' } ',
-        url: ''
-    },
-    {
-        example: '{Example work 5}',
-        class: 'Project in development {',
-        constructor: 'constructor() {',
-        name: 'this.name = "soon";',
-        type: 'this.type = "soon";',
-        description: 'this.description = "soon";',
-        date: 'this.date = "soon";',
-        priority: 'this.priority = ;',
-        completed: 'this.completed = false;',
-        bracer: ' } ',
-        url: ''
-    },
-    {
-        example: '{Example work 6}',
-        class: 'Project in development {',
-        constructor: 'constructor() {',
-        name: 'this.name = "soon";',
-        type: 'this.type = "soon";',
-        description: 'this.description = "soon";',
-        date: 'this.date = "soon";',
-        priority: 'this.priority = ;',
-        completed: 'this.completed = false;',
-        bracer: ' } ',
-        url: ''
-    },
 
-];
+        example: '{Example work 1}',
+        class: {
+            model: 'class',
+            className: 'DatingApp',
+            braceLeft: '{',
+        },
+        constructor: {
+            constructorName: 'constructor',
+            brackets: '( )',
+            braceLeft: '{',
+        },
+        thisName: {
+            this: 'this',
+            dot:'.',
+            name:'name',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Matchbox',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisType: {
+            this: 'this',
+            dot:'.',
+            name:'type',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Website',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisDescription: {
+            this: 'this',
+            dot:'.',
+            name:'description',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Work in progress',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisData: {
+            this: 'this',
+            dot:'.',
+            name:'data',
+            equals: '=',
+            doubleQuote1: '"',
+            text: '2024',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisPriority: {
+            this: 'this',
+            dot:'.',
+            name:'priority',
+            equals: '=',
+            doubleQuote1: '"',
+            text: '1',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisCompleted: {
+            this: 'this',
+            dot:'.',
+            name:'completed',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'false',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        braceRight: '}',
+    },
+    {
+
+        example: '{Example work 2}',
+        class: {
+            model: 'class',
+            className: 'ToDoApp',
+            braceLeft: '{',
+        },
+        constructor: {
+            constructorName: 'constructor',
+            brackets: '( )',
+            braceLeft: '{',
+        },
+        thisName: {
+            this: 'this',
+            dot:'.',
+            name:'name',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'ToDo',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisType: {
+            this: 'this',
+            dot:'.',
+            name:'type',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Website',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisDescription: {
+            this: 'this',
+            dot:'.',
+            name:'description',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Work in progress',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisData: {
+            this: 'this',
+            dot:'.',
+            name:'data',
+            equals: '=',
+            doubleQuote1: '"',
+            text: '2024',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisPriority: {
+            this: 'this',
+            dot:'.',
+            name:'priority',
+            equals: '=',
+            doubleQuote1: '"',
+            text: '1',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisCompleted: {
+            this: 'this',
+            dot:'.',
+            name:'completed',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'false',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        braceRight: '}',
+         
+    },
+    {
+
+        example: '{Example work 3}',
+        class: {
+            model: 'class',
+            className: 'Weather',
+            braceLeft: '{',
+        },
+        constructor: {
+            constructorName: 'constructor',
+            brackets: '( )',
+            braceLeft: '{',
+        },
+        thisName: {
+            this: 'this',
+            dot:'.',
+            name:'name',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Weather',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisType: {
+            this: 'this',
+            dot:'.',
+            name:'type',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Website',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisDescription: {
+            this: 'this',
+            dot:'.',
+            name:'description',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Work in progress',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisData: {
+            this: 'this',
+            dot:'.',
+            name:'data',
+            equals: '=',
+            doubleQuote1: '"',
+            text: '2024',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisPriority: {
+            this: 'this',
+            dot:'.',
+            name:'priority',
+            equals: '=',
+            doubleQuote1: '"',
+            text: '1',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisCompleted: {
+            this: 'this',
+            dot:'.',
+            name:'completed',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'false',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        braceRight: '}',
+        
+    },
+]
+
 
 
 
