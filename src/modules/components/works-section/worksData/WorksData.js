@@ -83,6 +83,7 @@ const works = [
             semicolon: ';'
         },
         braceRight: '}',
+        url:'https://matchbox-zanp.onrender.com'
     },
     {
 
@@ -123,7 +124,7 @@ const works = [
             name:'description',
             equals: '=',
             doubleQuote1: '"',
-            text: 'Work in progress',
+            text: 'Work is completed',
             doubleQuote2: '"',
             semicolon: ';'
         },
@@ -153,11 +154,12 @@ const works = [
             name:'completed',
             equals: '=',
             doubleQuote1: '"',
-            text: 'false',
+            text: 'true',
             doubleQuote2: '"',
             semicolon: ';'
         },
         braceRight: '}',
+        url: 'https://todo-xdae.onrender.com'
          
     },
     {
@@ -199,7 +201,7 @@ const works = [
             name:'description',
             equals: '=',
             doubleQuote1: '"',
-            text: 'Work in progress',
+            text: 'Work is completed',
             doubleQuote2: '"',
             semicolon: ';'
         },
@@ -229,12 +231,12 @@ const works = [
             name:'completed',
             equals: '=',
             doubleQuote1: '"',
-            text: 'false',
+            text: 'true',
             doubleQuote2: '"',
             semicolon: ';'
         },
         braceRight: '}',
-        
+        url: 'https://weather-7dh3.onrender.com',
     },
 ]
 
@@ -250,7 +252,7 @@ const settings = {
     // slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 1800,
+            breakpoint: 3900,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
@@ -259,7 +261,7 @@ const settings = {
             }
         },
         {
-            breakpoint: 900,
+            breakpoint: 1150,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
@@ -269,7 +271,7 @@ const settings = {
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 700,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,

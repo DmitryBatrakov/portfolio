@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     .aboutMe {
         flex-direction: column;
 
@@ -42,6 +42,238 @@
 
                     .bracerLeft {
                         width: 18vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .aboutMe {
+        flex-direction: column;
+        gap: 2vh;
+
+        .left-side {
+            width: 100%;
+
+            .text {
+                padding: 0;
+
+                strong{
+                    padding-top: 3vh;
+                    text-align: center;
+                }
+            }
+        }
+
+        .right-side {
+            width: 100%;
+ 
+
+            .pictures {
+                width: 70%;
+                height: auto;
+                position: static;
+
+                .myPhoto {
+                    width: 100%;
+
+                    .myEmoji{
+                        width: 35vw;
+                        height: auto;
+                    }
+                }
+
+                .sectionBracerRight {
+                    top: 2vh;
+                    left: -5vw;
+
+                    .bracerRight {
+                        width: 16vw;
+                    }
+
+                }
+                .sectionBracerLeft{
+                    left: 0;
+
+                    .bracerLeft {
+                        width: 16vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 820px) {
+    .aboutMe {
+        flex-direction: column;
+        gap: 2vh;
+
+        .left-side {
+            width: 100%;
+
+            .text {
+                padding: 0;
+
+                strong{
+                    padding-top: 3vh;
+                    text-align: center;
+                }
+            }
+        }
+
+        .right-side {
+            width: 100%;
+ 
+
+            .pictures {
+                width: 70%;
+                height: auto;
+                position: static;
+
+                .myPhoto {
+                    width: 100%;
+
+                    .myEmoji{
+                        width: 35vw;
+                        height: auto;
+                    }
+                }
+
+                .sectionBracerRight {
+                    top: 2vh;
+                    left: -5vw;
+
+                    .bracerRight {
+                        width: 16vw;
+                    }
+
+                }
+                .sectionBracerLeft{
+                    left: 0;
+
+                    .bracerLeft {
+                        width: 16vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px) {
+    .aboutMe {
+        flex-direction: row;
+        gap: 0;
+
+        .left-side {
+            width: 50%;
+            justify-content: flex-end;
+
+            .text {
+                padding: 0;
+
+                strong{
+                    padding-top: 3vh;
+                    text-align: center;
+                }
+            }
+        }
+
+        .right-side {
+            width: 50%;
+ 
+
+            .pictures {
+                width: 70%;
+                height: auto;
+                position: static;
+
+                .myPhoto {
+                    width: 100%;
+
+                    .myEmoji{
+                        width: 25vw;
+                        height: auto;
+                    }
+                }
+
+                .sectionBracerRight {
+                    top: 2vh;
+                    left: 0;
+
+                    .bracerRight {
+                        width: 10vw;
+                    }
+
+                }
+                .sectionBracerLeft{
+                    top: 2vh;
+                    left: -2vw;
+
+                    .bracerLeft {
+                        width: 10vw;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1180px) {
+    .aboutMe {
+        flex-direction: row;
+        gap: 0;
+
+        .left-side {
+            width: 50%;
+            justify-content: flex-end;
+
+            .text {
+                padding: 0;
+
+                strong{
+                    padding-top: 3vh;
+                    text-align: center;
+                }
+            }
+        }
+
+        .right-side {
+            width: 50%;
+ 
+
+            .pictures {
+                width: 70%;
+                height: auto;
+                position: static;
+
+                .myPhoto {
+                    width: 100%;
+
+                    .myEmoji{
+                        width: 25vw;
+                        height: auto;
+                    }
+                }
+
+                .sectionBracerRight {
+                    top: 2vh;
+                    left: 0;
+
+                    .bracerRight {
+                        width: 10vw;
+                    }
+
+                }
+                .sectionBracerLeft{
+                    top: 2vh;
+                    left: -2vw;
+
+                    .bracerLeft {
+                        width: 10vw;
                     }
                 }
             }

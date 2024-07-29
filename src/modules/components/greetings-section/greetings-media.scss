@@ -1,7 +1,7 @@
 @media (max-width: 480px) {
     .greetings-section {
         height: 92vh;
-        min-height: 70vh;
+        min-height: 92vh;
         padding: 0;
 
         .wrapper-top {
@@ -98,6 +98,495 @@
             }
             .right-side {
                 display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .greetings-section {
+        padding-top: 60px;
+        margin-top: -60px;
+        height: 100vh;
+        min-height: 92vh;
+        height: auto;
+
+        
+
+        .wrapper-top {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 1vh 0;
+            margin-top: 8vh;
+
+            .left-side {
+                min-width: 320px;
+                gap: 2.5vh;
+                width: 100%;
+                padding: 2vh 5vw;
+
+                .bottom-section {
+                    width: 100%;
+                    height: auto;
+
+                    .emoji-section {
+                        width: 90%;
+                        margin: 0 5%;
+                        height: auto;
+                        left: -5vw;
+                        top: 20vh;
+
+                        .bracerRight {
+                            width: 100%;
+                            height: auto;
+                            top: -1vh;
+                            left: -7vw;
+
+                            // display: none;
+
+                            img {
+                                width: 18vw;
+                            }
+                        }
+
+                        .myEmoji {
+                            width: auto;
+                            height: auto;
+                            left: 15vw;
+                            top: -5vh;
+
+                            img {
+                                width: 22vw;
+                                height: auto;
+                            }
+                        }
+
+                        .bracerLeft {
+                            width: 100%;
+                            left: -1vw;
+                            top: -8vh;
+                            text-align: center;
+                           
+
+                            img {
+                                width: 18vw;
+                            }
+                        }
+                    }
+
+                    .icons {
+                        width: 100%;
+                        margin: 0 auto;
+                        height: auto;
+                        top: 20vh;
+                        left: 0;
+                        // display: none;
+
+                        .squares {
+                            width: 100%;
+                            top: 2vh;
+                            left: -7vw;
+
+                            img {
+                                width: 8vw;
+                            }
+                        }
+
+                        .peopleAndMessage {
+                            width: 100%;
+                            top: 10vh;
+                            justify-content: space-around;
+
+                            img {
+                                width: 15vw;
+                            }
+                            .iconPeople {
+                                position: relative;
+                                top: 10vh;
+                                left: 10vw;
+                            }
+                            .iconMessage {
+                                position: relative;
+                                top: 6vh;
+                                left: -5vw;
+                            }
+                        }
+                    }
+                }
+            }
+            .right-side {
+                // margin-top: 35vh;
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 820px) {
+    .greetings-section {
+        height: 100vh;
+        min-height: 72vh;
+        height: auto;
+
+        .wrapper-top {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding:  0;
+
+            .left-side {
+                min-width: 320px;
+                gap: 2.5vh;
+                width: 100%;
+                padding: 4vh 7vw;
+
+                .bottom-section {
+                    width: 100%;
+                    height: auto;
+
+                    .emoji-section {
+                        width: 90%;
+                        margin: 0 5%;
+                        height: auto;
+                        left: -5vw;
+                        top: 25vh;
+
+                        .bracerRight {
+                            width: 100%;
+                            height: auto;
+                            top: -1vh;
+                            left: -7vw;
+
+                            // display: none;
+
+                            img {
+                                width: 14vw;
+                            }
+                        }
+
+                        .myEmoji {
+                            width: auto;
+                            height: auto;
+                            left: 15vw;
+                            top: -5vh;
+
+                            img {
+                                width: 18vw;
+                                height: auto;
+                            }
+                        }
+
+                        .bracerLeft {
+                            width: 100%;
+                            left: -1vw;
+                            top: -8vh;
+                            text-align: center;
+                           
+
+                            img {
+                                width: 14vw;
+                            }
+                        }
+                    }
+
+                    .icons {
+                        width: 100%;
+                        margin: 0 auto;
+                        height: auto;
+                        top: 25vh;
+                        left: 0;
+                        // display: none;
+
+                        .squares {
+                            width: 100%;
+                            top: -4vh;
+                            left: -8vw;
+
+                            img {
+                                width: 10vw;
+                            }
+                        }
+
+                        .peopleAndMessage {
+                            width: 100%;
+                            top: 0;
+                            justify-content: space-around;
+
+                            img {
+                                width: 17vw;
+                            }
+                            .iconPeople {
+                                position: relative;
+                                top: 10vh;
+                                left: 10vw;
+                            }
+                            .iconMessage {
+                                position: relative;
+                                top: 6vh;
+                                left: -5vw;
+                            }
+                        }
+                    }
+                }
+            }
+            .right-side {
+                // margin-top: 55vh;
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 821px) and (max-width: 1024px) {
+    .greetings-section {
+        min-height: 100vh;
+        height: auto;
+
+        .wrapper-top {
+            // width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 7vh 0;
+            flex-wrap: nowrap;
+
+            .left-side {
+                min-width: 0;
+                gap: 2.5vh;
+                width: 50%;
+                // padding: 4vh 7vw;
+
+                .bottom-section {
+                    width: 100%;
+                    height: auto;
+
+                    .emoji-section {
+                        width: 90%;
+                        margin: 0 5%;
+                        height: auto;
+                        left: -5vw;
+                        top: 25vh;
+                        // display: none;
+
+                        .bracerRight {
+                            width: 100%;
+                            height: auto;
+                            top: 7vh;
+                            left: 5vw;
+
+                            // display: none;
+
+                            img {
+                                width: 10vw;
+                            }
+                        }
+
+                        .myEmoji {
+                            width: auto;
+                            height: auto;
+                            left: 10vw;
+                            top: 3vh;
+
+                            img {
+                                width: 13vw;
+                                height: auto;
+                            }
+                        }
+
+                        .bracerLeft {
+                            width: 100%;
+                            left: -1vw;
+                            top: 0;
+                            text-align: center;
+                           
+
+                            img {
+                                width: 10vw;
+                            }
+                        }
+                    }
+
+                    .icons {
+                        width: 100%;
+                        margin: 0 auto;
+                        height: auto;
+                        top: 25vh;
+                        left: 0;
+                        // display: none;
+
+                        .squares {
+                            width: 90%;
+                            min-width: 0;
+                            top: 8vh;
+                            left: -8vw;
+
+                            img {
+                                width: 6vw;
+                            }
+                        }
+
+                        .peopleAndMessage {
+                            width: 100%;
+                            top: 17vh;
+                            justify-content: space-around;
+
+                            img {
+                                width: 12vw;
+                            }
+                            .iconPeople {
+                                position: relative;
+                                top: 10vh;
+                                left: 8vw;
+                            }
+                            .iconMessage {
+                                position: relative;
+                                top: 4vh;
+                                left: -8vw;
+                            }
+                        }
+                    }
+                }
+            }
+            .right-side {
+                // margin-top: 55vh;
+                // display: none;
+                // width: 40%;
+                min-width: 0;
+
+                .squares{
+
+                    .bottom-square{
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1180px) {
+    .greetings-section {
+        min-height: 100vh;
+        height: auto;
+
+        .wrapper-top {
+            width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 7vh 0;
+            flex-wrap: nowrap;
+
+            .left-side {
+                min-width: 0;
+                gap: 2.5vh;
+                width: 50%;
+                // padding: 4vh 7vw;
+
+                .bottom-section {
+                    width: 100%;
+                    height: auto;
+
+                    .emoji-section {
+                        width: 90%;
+                        margin: 0 5%;
+                        height: auto;
+                        left: -5vw;
+                        top: 20vh;
+
+                        .bracerRight {
+                            width: 100%;
+                            height: auto;
+                            top: 7vh;
+                            left: 5vw;
+
+
+                            img {
+                                width: 10vw;
+                            }
+                        }
+
+                        .myEmoji {
+                            width: auto;
+                            height: auto;
+                            left: 10vw;
+                            top: 3vh;
+
+                            img {
+                                width: 13vw;
+                                height: auto;
+                            }
+                        }
+
+                        .bracerLeft {
+                            width: 100%;
+                            left: -1vw;
+                            top: 0;
+                            text-align: center;
+                           
+
+                            img {
+                                width: 10vw;
+                            }
+                        }
+                    }
+
+                    .icons {
+                        width: 100%;
+                        margin: 0 auto;
+                        height: auto;
+                        top: 25vh;
+                        left: 0;
+
+                        .squares {
+                            width: 90%;
+                            min-width: 0;
+                            top: 5vh;
+                            left: -5vw;
+
+                            img {
+                                width: 5vw;
+                            }
+                        }
+
+                        .peopleAndMessage {
+                            width: 100%;
+                            top: 20vh;
+                            justify-content: space-around;
+
+                            img {
+                                width: 10vw;
+                            }
+                            .iconPeople {
+                                position: relative;
+                                top: 10vh;
+                                left: 8vw;
+                            }
+                            .iconMessage {
+                                position: relative;
+                                top: 4vh;
+                                left: -8vw;
+                            }
+                        }
+                    }
+                }
+            }
+            .right-side {
+                // margin-top: 55vh;
+                // display: none;
+                // width: 40%;
+                min-width: 0;
+
+                .squares{
+
+                    .top-square{
+                        padding: 2vh 2vw;
+                    }
+
+                    .bottom-square{
+
+                    }
+                }
             }
         }
     }
