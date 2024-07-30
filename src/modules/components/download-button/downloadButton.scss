@@ -21,10 +21,14 @@
             linear-gradient(90deg, rgba(4, 247, 113), rgba(4, 247, 113) ),
             linear-gradient(336deg, rgba(0, 255, 102), rgba(2, 255, 238) );
         z-index: 1;
+        transition: scale 0.3s;
 
         &:hover{
             cursor: pointer;
+             scale: (1.1);
         }
+
+
     }
  
     .shadow{

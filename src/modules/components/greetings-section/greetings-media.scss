@@ -4,8 +4,6 @@
         min-height: 92vh;
         padding-top: 1vh;
 
-        
-
         .wrapper-top {
             width: 100%;
             justify-content: center;
@@ -18,6 +16,14 @@
                 gap: 2.5vh;
                 width: 100%;
                 padding: 0 5vw;
+                animation-name: none;
+
+                .name{
+                    animation-name: none;
+                }
+                .frontEnd{
+                    animation-name: none;
+                }
 
                 .bottom-section {
                     width: 100%;
@@ -113,8 +119,6 @@
         min-height: 92vh;
         height: auto;
 
-        
-
         .wrapper-top {
             width: 100%;
             justify-content: center;
@@ -169,7 +173,6 @@
                             left: -1vw;
                             top: -8vh;
                             text-align: center;
-                           
 
                             img {
                                 width: 18vw;
@@ -235,7 +238,7 @@
             width: 100%;
             justify-content: center;
             align-items: center;
-            padding:  0;
+            padding: 0;
 
             .left-side {
                 min-width: 320px;
@@ -284,7 +287,6 @@
                             left: -1vw;
                             top: -8vh;
                             text-align: center;
-                           
 
                             img {
                                 width: 14vw;
@@ -400,7 +402,6 @@
                             left: -1vw;
                             top: 0;
                             text-align: center;
-                           
 
                             img {
                                 width: 10vw;
@@ -455,16 +456,13 @@
                 // width: 40%;
                 min-width: 0;
 
-                .squares{
-
-                    .bottom-square{
-
+                .squares {
+                    .bottom-square {
                     }
                 }
             }
         }
     }
-
 }
 
 @media (min-width: 1025px) and (max-width: 1180px) {
@@ -502,7 +500,6 @@
                             top: 7vh;
                             left: 5vw;
 
-
                             img {
                                 width: 10vw;
                             }
@@ -525,7 +522,6 @@
                             left: -1vw;
                             top: 0;
                             text-align: center;
-                           
 
                             img {
                                 width: 10vw;
@@ -579,14 +575,12 @@
                 // width: 40%;
                 min-width: 0;
 
-                .squares{
-
-                    .top-square{
+                .squares {
+                    .top-square {
                         padding: 2vh 2vw;
                     }
 
-                    .bottom-square{
-
+                    .bottom-square {
                     }
                 }
             }
