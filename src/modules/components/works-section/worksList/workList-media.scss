@@ -2,6 +2,7 @@
     .work-section {
         .card {
             .array {
+                width: 320px;
                 .circles {
                     height: 5vh;
 
@@ -12,9 +13,9 @@
                     }
                 }
                 .works {
-                    max-width: 280px;
+                    max-width: 320px;
                     max-height: 280px;
-                    padding: 2vh 5vw;
+                    padding: 1vh 4vw;
                     .constructorLine {
                         margin-left: 20px;
                     }
