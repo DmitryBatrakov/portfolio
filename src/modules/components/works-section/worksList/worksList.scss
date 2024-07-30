@@ -10,6 +10,7 @@ $color-orange: #d84327;
 .work-section {
     // max-width: 1720px;
 
+
     .card {
         display: flex;
         flex-direction: column;
@@ -32,8 +33,10 @@ $color-orange: #d84327;
         }
 
         .array {
-            max-width: 440px;
+            // max-width: 400px;
             // width: 100%;
+            // min-width: 30px;
+            max-width: 450px;
             height: auto;
             display: flex;
             flex-direction: column;
