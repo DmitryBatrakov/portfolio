@@ -8,8 +8,7 @@ $color-lightGreen: #53ea9a;
 $color-orange: #d84327;
 
 .work-section {
-    max-width: 1720px;
-
+    // max-width: 1720px;
 
     .card {
         display: flex;
@@ -33,8 +32,8 @@ $color-orange: #d84327;
         }
 
         .array {
-            // max-width: 440px;
-            width: 100%;
+            max-width: 440px;
+            // width: 100%;
             height: auto;
             display: flex;
             flex-direction: column;
@@ -72,6 +71,7 @@ $color-orange: #d84327;
             }
 
             .works {
+                min-width: 100px;
                 display: flex;
                 flex-direction: column;
                 gap: 0.3vh;
