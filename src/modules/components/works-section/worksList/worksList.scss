@@ -8,7 +8,6 @@ $color-lightGreen: #53ea9a;
 $color-orange: #d84327;
 
 .work-section {
-    // max-width: 1720px;
 
 
     .card {
@@ -33,10 +32,6 @@ $color-orange: #d84327;
         }
 
         .array {
-            // max-width: 400px;
-            // width: 100%;
-            // min-width: 30px;
-            // max-width: 450px;
             height: auto;
             display: flex;
             flex-direction: column;
@@ -74,12 +69,15 @@ $color-orange: #d84327;
             }
 
             .works {
+                // max-width: 340px;
+                // max-height: 340px;
                 min-width: 100px;
                 display: flex;
                 flex-direction: column;
                 gap: 0.3vh;
-                padding: 2vh 2vw;
+                padding: 1.5vh 2vw;
                 font-weight: 600;
+                // width: 80%;
 
                 // .class {
                 //     color: $color-yellow;
@@ -89,7 +87,7 @@ $color-orange: #d84327;
                     margin-top: 2vh;
                 }
                 .line {
-                    margin-left: 55px;
+                    padding-left: 55px;
 
                     .this {
                         color: $color-pink;
