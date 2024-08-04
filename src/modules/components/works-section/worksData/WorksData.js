@@ -144,7 +144,7 @@ const works = [
             name:'priority',
             equals: '=',
             doubleQuote1: '"',
-            text: '1',
+            text: '2',
             doubleQuote2: '"',
             semicolon: ';'
         },
@@ -221,7 +221,7 @@ const works = [
             name:'priority',
             equals: '=',
             doubleQuote1: '"',
-            text: '1',
+            text: '3',
             doubleQuote2: '"',
             semicolon: ';'
         },
@@ -232,6 +232,82 @@ const works = [
             equals: '=',
             doubleQuote1: '"',
             text: 'true',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        braceRight: '}',
+        url: 'https://weather-7dh3.onrender.com',
+    },
+    {
+
+        example: '{Example work 4}',
+        class: {
+            model: 'class',
+            className: 'wishfriends',
+            braceLeft: '{',
+        },
+        constructor: {
+            constructorName: 'constructor',
+            brackets: '( )',
+            braceLeft: '{',
+        },
+        thisName: {
+            this: 'this',
+            dot:'.',
+            name:'name',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'wishfriends',
+            doubleQuote2: '"',
+            semicolon: ';',
+        },
+        thisType: {
+            this: 'this',
+            dot:'.',
+            name:'type',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Social network',
+            doubleQuote2: '"',
+            semicolon: ';',
+        },
+        thisDescription: {
+            this: 'this',
+            dot:'.',
+            name:'description',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'Work in progress',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisData: {
+            this: 'this',
+            dot:'.',
+            name:'data',
+            equals: '=',
+            doubleQuote1: '"',
+            text: '2024',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisPriority: {
+            this: 'this',
+            dot:'.',
+            name:'priority',
+            equals: '=',
+            doubleQuote1: '"',
+            text: '4',
+            doubleQuote2: '"',
+            semicolon: ';'
+        },
+        thisCompleted: {
+            this: 'this',
+            dot:'.',
+            name:'completed',
+            equals: '=',
+            doubleQuote1: '"',
+            text: 'false',
             doubleQuote2: '"',
             semicolon: ';'
         },
@@ -276,7 +352,6 @@ const settings = {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true
-
             }
         }
     ]

@@ -12,13 +12,6 @@ code {
     monospace;
 }
 
-/* @font-face {
-  font-family: "FiraSans-Regular";
-  src: local("FiraSans-Regular"),
-    url(./modules/fonts/FiraSans-Regular.ttf) format("truetype");
-  font-weight: normal;  
-}
-*/
 @font-face {
   font-family: "Barlow-Regular";
   src: local("Barlow-Regular"),
