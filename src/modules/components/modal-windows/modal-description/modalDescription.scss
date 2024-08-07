@@ -35,14 +35,14 @@ $color-greenyellow: rgb(172, 254, 47);
     // overflow: hidden;
 
     .text-section {
-        padding: 15px 0;
+        // padding: 15px 0;
 
         .btn-close {
             position: absolute;
             border: none;
             background: transparent;
-            top: -1vh;
-            right: 0.5vw;
+            top: 1vh;
+            right: 2vw;
             font-size: 25px;
             color: rgb(0, 0, 0);
             padding: 0;
