@@ -41,8 +41,8 @@ $color-greenyellow: rgb(172, 254, 47);
             position: absolute;
             border: none;
             background: transparent;
-            top: -1vh;
-            right: 0.5vw;
+            top: 1vh;
+            right: 2vw;
             font-size: 25px;
             color: rgb(0, 0, 0);
             padding: 0;
@@ -118,9 +118,6 @@ $color-greenyellow: rgb(172, 254, 47);
     }
 }
 
-button {
-    margin-top: 20px;
-}
 
 .full-screen-modal {
     position: fixed;
