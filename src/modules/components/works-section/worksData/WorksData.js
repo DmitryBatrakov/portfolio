@@ -88,7 +88,64 @@ const works = [
         url: 'https://matchbox-zanp.onrender.com',
         nameOfProject: 'Matchbox',
         descriptionOfProject: 'Tinder is a commercial site, which provides an exclusive guide to improving results. The platform offers advice and tactics for increasing matches and success on Tinder.',
-        
+
+        frontend: {
+
+            name: 'Frontend',
+            liOne: {
+                strong: 'JavaScript, React.js, SCSS: ',
+                span: 'For building a dynamic and responsive user interface'
+            },
+            liTwo: {
+                strong: 'React Router DOM: ',
+                span: 'For seamless and smooth navigation between different pages of the application.'
+            },
+            liThree: {
+                strong: 'React Hooks: ',
+                span: 'For managing component state and lifecycle methods more effectively.'
+            },
+            liFour: {
+                strong: 'Geolocation API: ',
+                span: 'For tracking user location to provide personalized information and automatic currency conversion.'
+            },
+            liFive: {
+                strong: 'SVG Integration: ',
+                span: 'For scalable and high-quality icons.'
+            },
+        },
+
+        backend: {
+
+            name: 'Backend',
+            liOne: {
+                strong: 'Node.js: ',
+                span: 'For server-side development, ensuring a robust and scalable backend.',
+            },
+            liTwo: {
+                strong: 'REST API: ',
+                span: 'For communication between the frontend and backend, ensuring data exchange.',
+            },
+            liThree: {
+                strong: 'JSON: ',
+                span: 'For data formatting and exchange between the client and server.',
+            },
+        },
+
+        features: {
+            name: 'Features',
+            liOne: '1. Developed a fully dynamic web application using React, ensuring a modern and responsive design adaptable to various devices.',
+            liTwo: '2. Utilized React Router DOM to ensure smooth and intuitive navigation between different sections of the application.',
+            liThree: '3. Integrated geolocation tracking to provide personalized information and automatic currency conversion based on the user`s location.',
+            liFour: '4. Connected a reliable payment system for processing transactions securely and efficiently.',
+            liFive: '5. Integrated cloud storage for product management and user delivery, and set up automatic email delivery to send the purchased guide to the user`s email.',
+        },
+
+        projectOutcome: {
+            name: 'Project Outcome:',
+            liOne: '1. Performance Improvements: Achieved a 30% increase in loading speed and a 25% increase in user engagement due to the modern and responsive design.',
+            liTwo: '2. Business Impact: Increased purchase conversion by 18% and reduced support costs by 30% due to the integrated payment system and automated email delivery.',
+            liThree: '3. Development Efficiency: Improved the development process speed by 20% through organized component structure and effective state management.',
+        }
     },
     {
 
@@ -168,6 +225,63 @@ const works = [
         nameOfProject: 'ToDo App',
         descriptionOfProject: 'The online task management platform goes by the name ToDoApp. It allows individuals to create, alter as well as supervise tasks. In case the page reloads, nothing gets deleted and this is due to data being saved in browser’s local storage.',
 
+        frontend: {
+
+            name: 'Frontend',
+            liOne: {
+                strong: 'HTML: ',
+                span: 'For structuring the content of the application.'
+            },
+            liTwo: {
+                strong: 'CSS: ',
+                span: 'For styling the application and ensuring a responsive design.'
+            },
+            liThree: {
+                strong: 'JavaScript: ',
+                span: 'For adding interactivity and functionality to the application.'
+            },
+            liFour: {
+                strong: 'Local Storage: ',
+                span: 'For storing tasks locally in the user`s browser to ensure data persistence.'
+            },
+            liFive: {
+                strong: 'SVG Integration: ',
+                span: 'For scalable and high-quality icons.'
+            },
+        },
+
+        backend: {
+
+            name: 'Backend',
+            liOne: {
+                strong: '',
+                span: '',
+            },
+            liTwo: {
+                strong: '',
+                span: '',
+            },
+            liThree: {
+                strong: '',
+                span: '',
+            },
+        },
+
+        features: {
+            name: 'Features',
+            liOne: '1. Task Management: add Tasks, delete tasks, mark as completed ',
+            liTwo: '2. Local Storage Integration: All tasks are saved in the browser`s local storage. This ensures that even after a page reload or browser restart, all tasks remain intact.',
+            liThree: '3. Automatic Save: Any changes to the tasks (add, delete, mark as complete) are automatically saved to local storage.',
+            liFour: '4. Responsive Design: The application is designed to be responsive, ensuring it looks and functions well on various devices, including desktops, tablets, and smartphones.',
+            liFive: '5. Clear Visual Indicators: Tasks are visually distinct based on their status (completed or pending).',
+        },
+
+        projectOutcome: {
+            name: 'Project Outcome:',
+            liOne: '1. User Convenience: Provided users with a reliable tool to manage their daily tasks effectively.',
+            liTwo: '2. Data Persistence: Ensured users do not lose their task data even after closing the browser or refreshing the page.',
+            liThree: '3. User Engagement: Increased user engagement by providing a simple, easy-to-use interface for task management.',
+        }
     },
     {
 
@@ -246,6 +360,64 @@ const works = [
         url: 'https://weather-7dh3.onrender.com',
         nameOfProject: 'Weather',
         descriptionOfProject: 'A web app that enables users to view weather forecasts and obtain the most current weather updates. Apart from searching, the application also has search feature for easy location of forecasts for different cities. Users can access temperature, moisture content, wind speed and other key meteorological indicators quickly through the interface. ',
+    
+        frontend: {
+
+            name: 'Frontend',
+            liOne: {
+                strong: 'HTML: ',
+                span: 'For structuring the content of the application.'
+            },
+            liTwo: {
+                strong: 'CSS: ',
+                span: 'For styling the application and ensuring a responsive design.'
+            },
+            liThree: {
+                strong: 'JavaScript: ',
+                span: 'For adding interactivity and functionality to the application.'
+            },
+            liFour: {
+                strong: 'SVG Integration: ',
+                span: 'For scalable and high-quality icons.'
+            },
+            liFive: {
+                strong: 'Bootstrap: ',
+                span: 'For quick and responsive design elements and layout.'
+            },
+        },
+
+        backend: {
+
+            name: 'Backend',
+            liOne: {
+                strong: 'Geolocation API: ',
+                span: 'For determining the user`s current location.',
+            },
+            liTwo: {
+                strong: 'Weather API: ',
+                span: 'For fetching real-time weather data based on the user`s location.',
+            },
+            liThree: {
+                strong: '',
+                span: '',
+            },
+        },
+
+        features: {
+            name: 'Features',
+            liOne: '1. Current Weather: Displays the current weather conditions, including temperature, humidity, wind speed, and weather description.',
+            liTwo: '2. Geolocation API Integration: Automatically detects the user`s location to provide accurate local weather information.',
+            liThree: '3. Manual Location Search: Allows users to manually search for weather information by entering a city name.',
+            liFour: '4. Responsive Design: Ensures the application looks and functions well on various devices, including desktops, tablets, and smartphones.',
+            liFive: '5. SVG Icons: Utilizes scalable and high-quality SVG icons to represent different weather conditions visually.',
+        },
+
+        projectOutcome: {
+            name: 'Project Outcome:',
+            liOne: '1. User Convenience: Provided users with real-time weather information based on their current location, enhancing their daily planning.',
+            liTwo: '2. Data Accuracy: Ensured accurate and up-to-date weather data through the integration of a reliable weather API.',
+            liThree: '3. User Engagement: Increased user engagement with a clean, responsive design and visually appealing weather icons.',
+        }
     },
     {
 
@@ -324,6 +496,64 @@ const works = [
         url: 'https://weather-7dh3.onrender.com',
         nameOfProject: 'Wishfriends',
         descriptionOfProject: 'A social platform for creating and sharing wishlists. Users create profiles with publishable wishlists visible to others. Features include an activity feed, messenger, and anonymous gift reservation, ensuring wishlist creators can`t see what`s been reserved, preserving the element of surprise.',
+    
+        frontend: {
+
+            name: 'Frontend',
+            liOne: {
+                strong: 'In progress',
+                span: ''
+            },
+            liTwo: {
+                strong: '',
+                span: ''
+            },
+            liThree: {
+                strong: '',
+                span: ''
+            },
+            liFour: {
+                strong: '',
+                span: ''
+            },
+            liFive: {
+                strong: '',
+                span: ''
+            },
+        },
+
+        backend: {
+
+            name: 'Backend',
+            liOne: {
+                strong: 'In progress',
+                span: '',
+            },
+            liTwo: {
+                strong: '',
+                span: '',
+            },
+            liThree: {
+                strong: '',
+                span: '',
+            },
+        },
+
+        features: {
+            name: 'Features',
+            liOne: 'In progress',
+            liTwo: '',
+            liThree: '',
+            liFour: '',
+            liFive: '',
+        },
+
+        projectOutcome: {
+            name: 'Project Outcome:',
+            liOne: 'In progress',
+            liTwo: '',
+            liThree: '',
+        }
     },
 ]
 
@@ -369,7 +599,7 @@ const settings = {
 const WorksData = () => {
     const [isSelected, setIsSelected] = useState(null);
     const sliderRef = useRef(null);
-    
+
 
     const handlePrevClick = () => {
         sliderRef.current.slickPrev();
@@ -383,11 +613,11 @@ const WorksData = () => {
         setIsSelected(index);
     };
 
-  
+
 
     return (
         <section className="slider-section">
-                
+
             <div className="top-section">
                 <span className="professional-works">Work Portfolio</span>
                 <div className="arrows-section">

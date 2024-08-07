@@ -14,7 +14,7 @@ $color-greenyellow: rgb(172, 254, 47);
     border-radius: 15px;
 }
 
-#element::-webkit-scrollbar{
+#element::-webkit-scrollbar {
     display: none;
 }
 
@@ -33,8 +33,6 @@ $color-greenyellow: rgb(172, 254, 47);
     border: 2px solid $color-greenyellow;
     overflow-y: scroll;
     // overflow: hidden;
-    
-
 
     .text-section {
         padding: 15px 0;
@@ -47,14 +45,58 @@ $color-greenyellow: rgb(172, 254, 47);
             right: 0.5vw;
             font-size: 25px;
             color: rgb(0, 0, 0);
+            padding: 0;
+
 
             &:hover {
                 color: rgb(255, 0, 0);
+                cursor: pointer;
             }
 
             &:active {
                 color: red;
             }
         }
+
+        .frontend,
+        .backend,
+        .features,
+        .projectOutcome {
+            color: black;
+            padding: 0 15px;
+            padding-bottom: 2vh;
+
+            h2 {
+                border-bottom: 2px solid black;
+            }
+
+            p {
+                margin-left: 1vw;
+            }
+
+            strong{
+                position: relative;
+            }
+            strong::before {
+                color: rgb(0, 0, 0);
+                /* UTF-8 escape sequence, соответствующая символу "Маркер списка" */
+                content: "\2022";
+                /* Делаем больше, чем основной текст в li */
+                font-size: 20px;
+                font-weight: 700;
+                /* Элемент вырван из потока, выравниваем отрицательным отступом */
+                left: -15px;
+                /* Высота строки и позиционирование необходимы для выравнивания по вертикали */
+                line-height: 18px;
+                position: absolute;
+                top: 0;
+            }
+        }
     }
+}
+
+@media (max-width: 480px) {
+    .btn-close{
+        right: 0;
     }
+}
