@@ -7,7 +7,7 @@
     .download-button {
         text-align: center;
         color: rgb(24, 21, 74);
-        font-size: 2.4em;
+        font-size: 2.5em;
         border: 2px solid rgb(24, 21, 74);
         border-radius: 50%;
         width: 60px;
@@ -22,9 +22,19 @@
             linear-gradient(336deg, rgba(0, 255, 102), rgba(2, 255, 238) );
         z-index: 1;
 
+        text-decoration: none;
+
         &:hover{
             cursor: pointer;
         }
+
+        //with tag <a> 
+        // svg{
+        //     position: relative;
+        //     top: .8vh;
+        // }
+
+        
 
 
     }
@@ -39,5 +49,13 @@
         z-index: 0; 
         filter: blur(3px); 
         transition: opacity 0.3s ease;
+    }
+
+    .cv{
+            position: absolute;
+            top: 9.5vh;
+            font-weight: bolder;
+            font-size: 1.5em;
+        
     }
 }

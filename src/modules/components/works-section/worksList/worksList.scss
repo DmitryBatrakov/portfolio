@@ -6,6 +6,7 @@ $color-lightGrey: #9b9b9b;
 $color-purple: #711edc;
 $color-lightGreen: #53ea9a;
 $color-orange: #d84327;
+$color-greenyellow: rgb(172, 254, 47);
 
 .work-section {
 
@@ -38,7 +39,7 @@ $color-orange: #d84327;
             display: flex;
             flex-direction: column;
             background-color: black;
-            border: 2px solid green;
+            border: 2px solid $color-greenyellow;
             border-radius: 15px;
             position: relative;
             font-size: clamp(0.85rem, 0.8053rem + 0.2974vw, 1.125rem);
@@ -46,7 +47,7 @@ $color-orange: #d84327;
             .circles {
                 width: 100%;
                 height: 6vh;
-                border-bottom: 2px solid green;
+                border-bottom: 1.5px solid $color-greenyellow;
                 display: flex;
                 gap: 10px;
 
@@ -71,19 +72,17 @@ $color-orange: #d84327;
             }
 
             .works {
-                // max-width: 340px;
-                // max-height: 340px;
                 min-width: 100px;
                 display: flex;
                 flex-direction: column;
                 gap: 0.3vh;
                 padding: 1.5vh 2vw;
                 font-weight: 600;
-                // width: 80%;
 
-                // .class {
-                //     color: $color-yellow;
-                // }
+                &:hover{
+                    cursor: pointer;
+                }
+            
 
                 .button {
                     margin-top: 2vh;
@@ -159,6 +158,13 @@ $color-orange: #d84327;
                 .braceRight2 {
                     color: $color-yellow;
                 }
+
+                .click-icon-section{
+                    width: 90%;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 2em;
+                }
             }
         }
     }
@@ -174,6 +180,10 @@ $color-orange: #d84327;
     background-color: rgba(255, 255, 255, 0.6);
     z-index: 3;
     border-radius: 15px;
+}
+
+.array:hover::before{
+    cursor: pointer;
 }
 
 .array.active::before {
@@ -192,5 +202,6 @@ $color-orange: #d84327;
     // max-width: 1720px !important;
 }
 .slick-track {
-    // max-width: 1720px !important;
+    padding-bottom: 3vh;
 }
+

@@ -7,6 +7,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './workData.scss';
 import './workData-media.scss';
+import ModalDescription from "../../modal-windows/modal-description/ModalDescription";
+
 
 const works = [
     {
@@ -24,8 +26,8 @@ const works = [
         },
         thisName: {
             this: 'this',
-            dot:'.',
-            name:'name',
+            dot: '.',
+            name: 'name',
             equals: '=',
             doubleQuote1: '"',
             text: 'Matchbox',
@@ -34,8 +36,8 @@ const works = [
         },
         thisType: {
             this: 'this',
-            dot:'.',
-            name:'type',
+            dot: '.',
+            name: 'type',
             equals: '=',
             doubleQuote1: '"',
             text: 'Website',
@@ -44,8 +46,8 @@ const works = [
         },
         thisDescription: {
             this: 'this',
-            dot:'.',
-            name:'description',
+            dot: '.',
+            name: 'description',
             equals: '=',
             doubleQuote1: '"',
             text: 'Work in progress',
@@ -54,8 +56,8 @@ const works = [
         },
         thisData: {
             this: 'this',
-            dot:'.',
-            name:'data',
+            dot: '.',
+            name: 'data',
             equals: '=',
             doubleQuote1: '"',
             text: '2024',
@@ -64,8 +66,8 @@ const works = [
         },
         thisPriority: {
             this: 'this',
-            dot:'.',
-            name:'priority',
+            dot: '.',
+            name: 'priority',
             equals: '=',
             doubleQuote1: '"',
             text: '1',
@@ -74,8 +76,8 @@ const works = [
         },
         thisCompleted: {
             this: 'this',
-            dot:'.',
-            name:'completed',
+            dot: '.',
+            name: 'completed',
             equals: '=',
             doubleQuote1: '"',
             text: 'false',
@@ -83,7 +85,10 @@ const works = [
             semicolon: ';'
         },
         braceRight: '}',
-        url:'https://matchbox-zanp.onrender.com'
+        url: 'https://matchbox-zanp.onrender.com',
+        nameOfProject: 'Matchbox',
+        descriptionOfProject: 'Tinder is a commercial site, which provides an exclusive guide to improving results. The platform offers advice and tactics for increasing matches and success on Tinder.',
+        
     },
     {
 
@@ -100,8 +105,8 @@ const works = [
         },
         thisName: {
             this: 'this',
-            dot:'.',
-            name:'name',
+            dot: '.',
+            name: 'name',
             equals: '=',
             doubleQuote1: '"',
             text: 'ToDo',
@@ -110,8 +115,8 @@ const works = [
         },
         thisType: {
             this: 'this',
-            dot:'.',
-            name:'type',
+            dot: '.',
+            name: 'type',
             equals: '=',
             doubleQuote1: '"',
             text: 'Website',
@@ -120,8 +125,8 @@ const works = [
         },
         thisDescription: {
             this: 'this',
-            dot:'.',
-            name:'description',
+            dot: '.',
+            name: 'description',
             equals: '=',
             doubleQuote1: '"',
             text: 'Work is completed',
@@ -130,8 +135,8 @@ const works = [
         },
         thisData: {
             this: 'this',
-            dot:'.',
-            name:'data',
+            dot: '.',
+            name: 'data',
             equals: '=',
             doubleQuote1: '"',
             text: '2024',
@@ -140,8 +145,8 @@ const works = [
         },
         thisPriority: {
             this: 'this',
-            dot:'.',
-            name:'priority',
+            dot: '.',
+            name: 'priority',
             equals: '=',
             doubleQuote1: '"',
             text: '2',
@@ -150,8 +155,8 @@ const works = [
         },
         thisCompleted: {
             this: 'this',
-            dot:'.',
-            name:'completed',
+            dot: '.',
+            name: 'completed',
             equals: '=',
             doubleQuote1: '"',
             text: 'true',
@@ -159,8 +164,10 @@ const works = [
             semicolon: ';'
         },
         braceRight: '}',
-        url: 'https://todo-xdae.onrender.com'
-         
+        url: 'https://todo-xdae.onrender.com',
+        nameOfProject: 'ToDo App',
+        descriptionOfProject: 'The online task management platform goes by the name ToDoApp. It allows individuals to create, alter as well as supervise tasks. In case the page reloads, nothing gets deleted and this is due to data being saved in browser’s local storage.',
+
     },
     {
 
@@ -177,8 +184,8 @@ const works = [
         },
         thisName: {
             this: 'this',
-            dot:'.',
-            name:'name',
+            dot: '.',
+            name: 'name',
             equals: '=',
             doubleQuote1: '"',
             text: 'Weather',
@@ -187,8 +194,8 @@ const works = [
         },
         thisType: {
             this: 'this',
-            dot:'.',
-            name:'type',
+            dot: '.',
+            name: 'type',
             equals: '=',
             doubleQuote1: '"',
             text: 'Website',
@@ -197,8 +204,8 @@ const works = [
         },
         thisDescription: {
             this: 'this',
-            dot:'.',
-            name:'description',
+            dot: '.',
+            name: 'description',
             equals: '=',
             doubleQuote1: '"',
             text: 'Work is completed',
@@ -207,8 +214,8 @@ const works = [
         },
         thisData: {
             this: 'this',
-            dot:'.',
-            name:'data',
+            dot: '.',
+            name: 'data',
             equals: '=',
             doubleQuote1: '"',
             text: '2024',
@@ -217,8 +224,8 @@ const works = [
         },
         thisPriority: {
             this: 'this',
-            dot:'.',
-            name:'priority',
+            dot: '.',
+            name: 'priority',
             equals: '=',
             doubleQuote1: '"',
             text: '3',
@@ -227,8 +234,8 @@ const works = [
         },
         thisCompleted: {
             this: 'this',
-            dot:'.',
-            name:'completed',
+            dot: '.',
+            name: 'completed',
             equals: '=',
             doubleQuote1: '"',
             text: 'true',
@@ -237,6 +244,8 @@ const works = [
         },
         braceRight: '}',
         url: 'https://weather-7dh3.onrender.com',
+        nameOfProject: 'Weather',
+        descriptionOfProject: 'A web app that enables users to view weather forecasts and obtain the most current weather updates. Apart from searching, the application also has search feature for easy location of forecasts for different cities. Users can access temperature, moisture content, wind speed and other key meteorological indicators quickly through the interface. ',
     },
     {
 
@@ -253,8 +262,8 @@ const works = [
         },
         thisName: {
             this: 'this',
-            dot:'.',
-            name:'name',
+            dot: '.',
+            name: 'name',
             equals: '=',
             doubleQuote1: '"',
             text: 'wishfriends',
@@ -263,8 +272,8 @@ const works = [
         },
         thisType: {
             this: 'this',
-            dot:'.',
-            name:'type',
+            dot: '.',
+            name: 'type',
             equals: '=',
             doubleQuote1: '"',
             text: 'Social network',
@@ -273,8 +282,8 @@ const works = [
         },
         thisDescription: {
             this: 'this',
-            dot:'.',
-            name:'description',
+            dot: '.',
+            name: 'description',
             equals: '=',
             doubleQuote1: '"',
             text: 'Work in progress',
@@ -283,8 +292,8 @@ const works = [
         },
         thisData: {
             this: 'this',
-            dot:'.',
-            name:'data',
+            dot: '.',
+            name: 'data',
             equals: '=',
             doubleQuote1: '"',
             text: '2024',
@@ -293,8 +302,8 @@ const works = [
         },
         thisPriority: {
             this: 'this',
-            dot:'.',
-            name:'priority',
+            dot: '.',
+            name: 'priority',
             equals: '=',
             doubleQuote1: '"',
             text: '4',
@@ -303,8 +312,8 @@ const works = [
         },
         thisCompleted: {
             this: 'this',
-            dot:'.',
-            name:'completed',
+            dot: '.',
+            name: 'completed',
             equals: '=',
             doubleQuote1: '"',
             text: 'false',
@@ -313,6 +322,8 @@ const works = [
         },
         braceRight: '}',
         url: 'https://weather-7dh3.onrender.com',
+        nameOfProject: 'Wishfriends',
+        descriptionOfProject: 'A social platform for creating and sharing wishlists. Users create profiles with publishable wishlists visible to others. Features include an activity feed, messenger, and anonymous gift reservation, ensuring wishlist creators can`t see what`s been reserved, preserving the element of surprise.',
     },
 ]
 
@@ -322,10 +333,7 @@ const works = [
 const settings = {
     dots: true,
     arrows: false,
-    infinite: true,
     speed: 300,
-    // slidesToShow: 3,
-    // slidesToScroll: 1,
     responsive: [
         {
             breakpoint: 3900,
@@ -361,6 +369,7 @@ const settings = {
 const WorksData = () => {
     const [isSelected, setIsSelected] = useState(null);
     const sliderRef = useRef(null);
+    
 
     const handlePrevClick = () => {
         sliderRef.current.slickPrev();
@@ -374,8 +383,11 @@ const WorksData = () => {
         setIsSelected(index);
     };
 
+  
+
     return (
         <section className="slider-section">
+                
             <div className="top-section">
                 <span className="professional-works">Work Portfolio</span>
                 <div className="arrows-section">

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from '../../button/Button';
 import { Link } from "react-router-dom";
 import './worksList.scss';
 import './workList-media.scss';
-
+import ModalWorks from '../../modal-windows/modal-works/ModalWorks';
+import { GiClick } from "react-icons/gi";
 
 const PropertyLine = ({ lineClass, thisProp, dot, name, equals, doubleQuote1, text, doubleQuote2, semicolon }) => (
     <div className={lineClass}>
@@ -19,11 +20,22 @@ const PropertyLine = ({ lineClass, thisProp, dot, name, equals, doubleQuote1, te
 );
 
 const WorksList = ({ work, index, isSelected, handleSelectItem }) => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleOpenModalWindow = () => {
+        setIsOpen(true);
+    };
+
+    const handleCloseModalWindow = () => {
+        setIsOpen(false);
+    };
+
+
     const buttonString = '</see work>';
 
     return (
         <section className="work-section">
-            <div className="card" key={index}>
+            <div className="card" key={index} >
                 <span className="example-work">{work.example}</span>
                 <div
                     className={`array ${isSelected === index ? 'active' : ''}`}
@@ -34,7 +46,7 @@ const WorksList = ({ work, index, isSelected, handleSelectItem }) => {
                         <div className="blue circle"></div>
                         <div className="purple circle"></div>
                     </div>
-                    <div className="works">
+                    <div className="works" onClick={handleOpenModalWindow}>
                         <div className="classLine">
                             <span className="model">{work.class.model}</span>
                             <span className="className">{work.class.className}</span>
@@ -113,15 +125,27 @@ const WorksList = ({ work, index, isSelected, handleSelectItem }) => {
                         />
                         <div className="braceRight1">{work.braceRight}</div>
                         <div className="braceRight2">{work.braceRight}</div>
-                        <Button
-                            target="_blank"
-                            to={work.url}
-                            component={Link}
-                            className="button"
-                        >
-                            {buttonString}
-                        </Button>
+                        <div className="click-icon-section">
+                            <Button
+                                target="_blank"
+                                to={work.url}
+                                component={Link}
+                                className="button"
+                            >
+                                {buttonString}
+                            </Button>
+                            <GiClick />
+                        </div>
                     </div>
+                    {isOpen && (
+                        <ModalWorks
+                            isOpen={isOpen}
+                            handleClose={handleCloseModalWindow}
+                            handleOpen={handleOpenModalWindow}
+                            work={work} />
+                    )}
+
+
                 </div>
             </div>
         </section>
@@ -129,3 +153,5 @@ const WorksList = ({ work, index, isSelected, handleSelectItem }) => {
 };
 
 export default WorksList;
+
+

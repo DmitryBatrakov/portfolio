@@ -30,6 +30,12 @@
                 min-width: 40px;
                 max-width: 3.5vw;
                 height: auto;
+
+                &:hover{
+
+                    scale: 1.15;
+                    cursor: pointer;
+                }
             }
         }
     }

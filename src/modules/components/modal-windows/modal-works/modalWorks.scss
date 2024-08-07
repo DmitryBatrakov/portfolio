@@ -1,0 +1,204 @@
+$color-greenyellow: rgb(172, 254, 47);
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    border-radius: 15px;
+}
+
+.modal-content {
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 13px;
+    width: 85%;
+    height: 85%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: black;
+    border: 2px solid $color-greenyellow;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    animation-name: rotate;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+
+    .text-section {
+        .btn-close {
+            position: absolute;
+            border: none;
+            background: transparent;
+            top: -1vh;
+            right: 0.5vw;
+            font-size: 25px;
+            color: rgb(0, 0, 0);
+
+            &:hover {
+                color: rgb(255, 0, 0);
+                cursor: pointer;
+            }
+
+            &:active {
+                color: red;
+            }
+        }
+    }
+
+    .button-section {
+
+        .btn-more {
+            align-items: center;
+            appearance: none;
+            background-color: #ffffff;
+            border-radius: 4px;
+            border-width: 0;
+            box-shadow:
+                rgba(4, 4, 4, 0.7) 0 2px 4px,
+                rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
+                #d6d6e7 0 -3px 0 inset;
+            box-sizing: border-box;
+            color: #36395a;
+            cursor: pointer;
+            display: inline-flex;
+            font-family: "JetBrains Mono", monospace;
+            justify-content: center;
+            line-height: 1;
+            list-style: none;
+            overflow: hidden;
+            padding: 0.8rem 2rem;
+            position: relative;
+            text-align: left;
+            text-decoration: none;
+            transition:
+                box-shadow 0.15s,
+                transform 0.15s;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            white-space: nowrap;
+            will-change: box-shadow, transform;
+            font-size: 1.2em;
+        }
+        
+        .btn-more:focus {
+            box-shadow:
+                #d6d6e7 0 0 0 1.5px inset,
+                rgba(0, 0, 0, 0.7) 0 2px 4px,
+                rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
+                #d6d6e7 0 -3px 0 inset;
+        }
+        
+        .btn-more:hover {
+            box-shadow:
+                rgba(0, 0, 0, 0.7) 0 4px 8px,
+                rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
+                #d6d6e7 0 -3px 0 inset;
+            transform: translateY(-2px);
+        }
+        
+        .btn-more:active {
+            box-shadow: #d6d6e7 0 3px 7px inset;
+            transform: translateY(2px);
+        }
+        
+    }
+}
+
+button {
+    margin-top: 20px;
+}
+
+.full-screen-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+
+// <!-- HTML !-->
+// <button class="button-57" role="button"><span class="text">Button 57</span><span>Alternate text</span></button>
+
+// /* CSS */
+// .button-57 {
+//   position: relative;
+//   overflow: hidden;
+//   border: 1px solid #18181a;
+//   color: #18181a;
+//   display: inline-block;
+//   font-size: 15px;
+//   line-height: 15px;
+//   padding: 18px 18px 17px;
+//   text-decoration: none;
+//   cursor: pointer;
+//   background: #fff;
+//   user-select: none;
+//   -webkit-user-select: none;
+//   touch-action: manipulation;
+// }
+
+// .button-57 span:first-child {
+//   position: relative;
+//   transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+//   z-index: 10;
+// }
+
+// .button-57 span:last-child {
+//   color: white;
+//   display: block;
+//   position: absolute;
+//   bottom: 0;
+//   transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+//   z-index: 100;
+//   opacity: 0;
+//   top: 50%;
+//   left: 50%;
+//   transform: translateY(225%) translateX(-50%);
+//   height: 14px;
+//   line-height: 13px;
+// }
+
+// .button-57:after {
+//   content: "";
+//   position: absolute;
+//   bottom: -50%;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: black;
+//   transform-origin: bottom center;
+//   transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+//   transform: skewY(9.3deg) scaleY(0);
+//   z-index: 50;
+// }
+
+// .button-57:hover:after {
+//   transform-origin: bottom center;
+//   transform: skewY(9.3deg) scaleY(2);
+// }
+
+// .button-57:hover span:last-child {
+//   transform: translateX(-50%) translateY(-100%);
+//   opacity: 1;
+//   transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+// }

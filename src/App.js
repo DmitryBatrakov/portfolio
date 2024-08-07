@@ -30,6 +30,8 @@ function App() {
       <section id="contact" className="sectionApp">
         <Footer />
       </section>
+
+      
     </div>
   );
 }

@@ -21,7 +21,12 @@ export default function DownloadButton() {
             <button onClick={handleDownload} className="download-button">
                 <HiDownload />
             </button>
+            {/* <a href={process.env.PUBLIC_URL + "/files/Dmitry Batrakov CV English.pdf"} download='cv.pdf' className="download-button">
+                <HiDownload />
+                
+            </a> */}
             <span className="shadow"></span>
+            <span className="cv">CV</span>
         </div>
     )
 }
