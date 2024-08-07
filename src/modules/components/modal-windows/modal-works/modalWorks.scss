@@ -37,13 +37,12 @@ $color-greenyellow: rgb(172, 254, 47);
     animation-iteration-count: 1;
 
     .text-section {
-
         .btn-close {
             position: absolute;
             border: none;
             background: transparent;
             top: 1vh;
-            right: .5vw;
+            right: 0.5vw;
             font-size: 25px;
             color: rgb(0, 0, 0);
             padding: 0;
@@ -60,7 +59,6 @@ $color-greenyellow: rgb(172, 254, 47);
     }
 
     .button-section {
-
         .btn-more {
             align-items: center;
             appearance: none;
@@ -94,7 +92,7 @@ $color-greenyellow: rgb(172, 254, 47);
             will-change: box-shadow, transform;
             font-size: 1.2em;
         }
-        
+
         .btn-more:focus {
             box-shadow:
                 #d6d6e7 0 0 0 1.5px inset,
@@ -102,7 +100,7 @@ $color-greenyellow: rgb(172, 254, 47);
                 rgba(0, 0, 0, 0.3) 0 7px 13px -3px,
                 #d6d6e7 0 -3px 0 inset;
         }
-        
+
         .btn-more:hover {
             box-shadow:
                 rgba(0, 0, 0, 0.7) 0 4px 8px,
@@ -110,15 +108,13 @@ $color-greenyellow: rgb(172, 254, 47);
                 #d6d6e7 0 -3px 0 inset;
             transform: translateY(-2px);
         }
-        
+
         .btn-more:active {
             box-shadow: #d6d6e7 0 3px 7px inset;
             transform: translateY(2px);
         }
-        
     }
 }
-
 
 .full-screen-modal {
     position: fixed;
@@ -134,7 +130,11 @@ $color-greenyellow: rgb(172, 254, 47);
 }
 
 @media (max-width: 480px) {
-    .btn-close{
-        right: 2vw;
+    .modal-content {
+        .text-section {
+            .btn-close {
+                right: 2vw;
+            }
+        }
     }
 }
