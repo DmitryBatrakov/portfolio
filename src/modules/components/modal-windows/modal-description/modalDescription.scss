@@ -32,7 +32,6 @@ $color-greenyellow: rgb(172, 254, 47);
     color: black;
     border: 2px solid $color-greenyellow;
     overflow-y: scroll;
-    // overflow: hidden;
 
     .text-section {
         // padding: 15px 0;
@@ -42,7 +41,7 @@ $color-greenyellow: rgb(172, 254, 47);
             border: none;
             background: transparent;
             top: 1vh;
-            right: 2vw;
+            right: .5vw;
             font-size: 25px;
             color: rgb(0, 0, 0);
             padding: 0;
@@ -97,6 +96,6 @@ $color-greenyellow: rgb(172, 254, 47);
 
 @media (max-width: 480px) {
     .btn-close{
-        
+        right: 2vw;
     }
 }
