@@ -79,9 +79,9 @@ $color-greenyellow: rgb(172, 254, 47);
                 padding: 1.5vh 2vw;
                 font-weight: 600;
 
-                &:hover{
-                    cursor: pointer;
-                }
+                // &:hover{
+                //     cursor: pointer;
+                // }
             
 
                 .button {
@@ -164,6 +164,23 @@ $color-greenyellow: rgb(172, 254, 47);
                     display: flex;
                     justify-content: space-between;
                     font-size: 2em;
+                    position: relative;
+
+                    .click-icon{
+                       display: flex;
+                       flex-direction: column;
+                       align-items: center;
+
+                        &:hover{
+                            cursor: pointer;
+                        }
+
+                        .click-text{
+                            font-size: .4em;
+                        }
+                    }
+
+                    
                 }
             }
         }

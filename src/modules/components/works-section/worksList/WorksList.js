@@ -46,7 +46,7 @@ const WorksList = ({ work, index, isSelected, handleSelectItem }) => {
                         <div className="blue circle"></div>
                         <div className="purple circle"></div>
                     </div>
-                    <div className="works" onClick={handleOpenModalWindow}>
+                    <div className="works" >
                         <div className="classLine">
                             <span className="model">{work.class.model}</span>
                             <span className="className">{work.class.className}</span>
@@ -134,7 +134,13 @@ const WorksList = ({ work, index, isSelected, handleSelectItem }) => {
                             >
                                 {buttonString}
                             </Button>
-                            <GiClick />
+                            <div 
+                            onClick={handleOpenModalWindow}
+                            className="click-icon"
+                            >
+                                <GiClick />
+                                <span className="click-text">click here</span>
+                            </div>
                         </div>
                     </div>
                     {isOpen && (
@@ -144,8 +150,6 @@ const WorksList = ({ work, index, isSelected, handleSelectItem }) => {
                             handleOpen={handleOpenModalWindow}
                             work={work} />
                     )}
-
-
                 </div>
             </div>
         </section>

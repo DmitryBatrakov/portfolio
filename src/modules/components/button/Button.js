@@ -1,5 +1,6 @@
 import './button.scss';
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function Button({ children, onClick, isActive, to, target }) {
 
@@ -7,9 +8,9 @@ export default function Button({ children, onClick, isActive, to, target }) {
 
         if (target) {
             return (
-                <a 
+                <a
                     href={to}
-                    target={target} 
+                    target={target}
                     className={isActive ? 'active' : 'button'}
                     onClick={onClick}
                 >
@@ -19,14 +20,22 @@ export default function Button({ children, onClick, isActive, to, target }) {
         }
 
         return (
-            <Link 
-                to={to}
+            // <Link 
+            //     to={to}
+            //     className={isActive ? 'active' : 'button'}
+            //     onClick={onClick}
+            //     smooth 
+            // >
+            //     {children}
+            // </Link>
+            <ScrollLink
+                to="contact"
+                smooth={true}
                 className={isActive ? 'active' : 'button'}
                 onClick={onClick}
-                smooth // добавляем плавную прокрутку
             >
                 {children}
-            </Link>
+            </ScrollLink>
         );
     }
 
