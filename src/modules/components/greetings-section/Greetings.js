@@ -43,7 +43,7 @@ export default function Greetings() {
                         <DownloadButton />
                     </div>
                     <div className="frontEnd">
-                        <span className="item1">Developer {`{`}</span>
+                        <span className="item1">Developer {`{ `} </span>
                         <span className="item2">Front End {`}`}</span>
                     </div>
                     <Button

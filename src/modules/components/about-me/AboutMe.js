@@ -12,11 +12,11 @@ export default function AboutMe() {
                     <strong>About Me</strong>
                     <span>My name is Dmitry </span>
                     <span>
-                        I am frontend developer experienced in crafting dynamic user interfaces for cloud-based
-                        platforms, leveraging modern technologies such as React, Angular, Vue.js. Proficient
-                        in consuming RESTful APIs and working with relational databases. Background in ERP
-                        development and adept at handling diverse project requirements spanning client-side
-                        development
+                    I am an experienced frontend developer skilled in creating dynamic user interfaces for 
+                    cloud-based platforms. I leverage modern technologies such as React, TypeScript, 
+                    Tailwind CSS, Firebase, and Node.js to deliver high-quality applications. 
+                    I am proficient in consuming RESTful APIs and working with relational databases.
+                    I excel in handling diverse project requirements and managing client-side development.
                         {/* I am passionate about information and constantly
                         tuned into news about science, technology, economics,
                         and other topics involving the world both inside and outside of Brazil.

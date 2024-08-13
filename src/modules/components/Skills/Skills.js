@@ -191,11 +191,11 @@ function Skills() {
                                 <div className="description-text">
                                     <span> Programming & Software Engineering FULL STACK DEVELOPER</span>
                                     <span>
-                                        I completed a 506-hour course where I learned web development with HTML,
-                                        CSS, and JavaScript, and gained proficiency in frameworks like React.js and
-                                        Node.js. I also worked with SQL and NoSQL databases and developed skills in
-                                        creating and testing web applications. These skills enable me to efficiently
-                                        build and maintain fully functional web apps.
+                                    I completed a 506-hour course in web development where I gained proficiency in HTML, CSS, and JavaScript. 
+                                    During the course, I also learned to work with frameworks like React.js and Node.js. 
+                                    Additionally, I gained experience with both SQL and NoSQL databases, and developed skills in 
+                                    creating and testing web applications. These skills enable me to efficiently build and maintain 
+                                    fully functional web apps.
                                     </span>
                                 </div>
                             </div>
