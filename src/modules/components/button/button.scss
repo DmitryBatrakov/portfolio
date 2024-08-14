@@ -8,20 +8,24 @@
     font-size: clamp(1.125rem, 1.0393rem + 0.4286vw, 1.5rem);
     color: black;
     align-self: baseline;
-    z-index: 20;
-    background: linear-gradient(127deg, rgb(135, 255, 247), rgb(222, 180, 255) 85.71%),
-        linear-gradient(90deg, rgba(4, 247, 113), rgba(4, 247, 113) 20.71%),
-        linear-gradient(336deg, rgba(0, 255, 102), rgba(2, 255, 238) 85.71%);
-    transition: 0.3s linear;
+    background-image: linear-gradient(to right, rgb(135, 255, 247) 0%, rgb(222, 180, 255) 51%, rgb(135, 255, 247) 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    
+    // background: linear-gradient(127deg, rgb(135, 255, 247), rgb(222, 180, 255) 85.71%),
+    //     linear-gradient(90deg, rgba(4, 247, 113), rgba(4, 247, 113) 20.71%),
+    //     linear-gradient(336deg, rgba(0, 255, 102), rgba(2, 255, 238) 85.71%);
+
+    display: inline-block;
+    transition: .5s;
+    background-size: 200% auto;
+    z-index: 2;
 
     &:hover {
-       
-        color: white;
+        background-position: right center;
     }
 }
 
-
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     .button {
         padding: 0.7rem 1.3rem;
     }

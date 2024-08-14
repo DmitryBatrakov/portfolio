@@ -7,7 +7,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './workData.scss';
 import './workData-media.scss';
-import ModalDescription from "../../modal-windows/modal-description/ModalDescription";
 
 
 const works = [
@@ -133,18 +132,43 @@ const works = [
 
         features: {
             name: 'Features',
-            liOne: '1. Developed a fully dynamic web application using React, ensuring a modern and responsive design adaptable to various devices.',
-            liTwo: '2. Utilized React Router DOM to ensure smooth and intuitive navigation between different sections of the application.',
-            liThree: '3. Integrated geolocation tracking to provide personalized information and automatic currency conversion based on the user`s location.',
-            liFour: '4. Connected a reliable payment system for processing transactions securely and efficiently.',
-            liFive: '5. Integrated cloud storage for product management and user delivery, and set up automatic email delivery to send the purchased guide to the user`s email.',
+            liOne: {
+                strong: '1. ',
+                span: ' Developed a fully dynamic web application using React, ensuring a modern and responsive design adaptable to various devices.',
+            },
+            liTwo: {
+                strong: '2. ',
+                span: ' Utilized React Router DOM to ensure smooth and intuitive navigation between different sections of the application.',
+            },
+            liThree: {
+                strong: '3. ',
+                span: ' Integrated geolocation tracking to provide personalized information and automatic currency conversion based on the user`s location.'
+            },
+            liFour: {
+                strong: '4. ',
+                span: '  Connected a reliable payment system for processing transactions securely and efficiently.'
+            },
+            liFive: {
+                strong: '5. ',
+                span: ' Integrated cloud storage for product management and user delivery, and set up automatic email delivery to send the purchased guide to the user`s email.',
+            }
         },
 
         projectOutcome: {
             name: 'Project Outcome:',
-            liOne: '1. Performance Improvements: Achieved a 30% increase in loading speed and a 25% increase in user engagement due to the modern and responsive design.',
-            liTwo: '2. Business Impact: Increased purchase conversion by 18% and reduced support costs by 30% due to the integrated payment system and automated email delivery.',
-            liThree: '3. Development Efficiency: Improved the development process speed by 20% through organized component structure and effective state management.',
+            liOne:
+            {
+                strong: '1 .',
+                span: 'Performance Improvements: Achieved a 30% increase in loading speed and a 25% increase in user engagement due to the modern and responsive design.',
+            },
+            liTwo: {
+                strong: '2. ',
+                span: ' Business Impact: Increased purchase conversion by 18% and reduced support costs by 30% due to the integrated payment system and automated email delivery.',
+            },
+            liThree: {
+                strong: '3. ',
+                span: ' Development Efficiency: Improved the development process speed by 20% through organized component structure and effective state management.',
+            }
         }
     },
     {
@@ -269,18 +293,42 @@ const works = [
 
         features: {
             name: 'Features',
-            liOne: '1. Task Management: add Tasks, delete tasks, mark as completed ',
-            liTwo: '2. Local Storage Integration: All tasks are saved in the browser`s local storage. This ensures that even after a page reload or browser restart, all tasks remain intact.',
-            liThree: '3. Automatic Save: Any changes to the tasks (add, delete, mark as complete) are automatically saved to local storage.',
-            liFour: '4. Responsive Design: The application is designed to be responsive, ensuring it looks and functions well on various devices, including desktops, tablets, and smartphones.',
-            liFive: '5. Clear Visual Indicators: Tasks are visually distinct based on their status (completed or pending).',
+            liOne: {
+                strong: '1. ',
+                span: ' Task Management: add Tasks, delete tasks, mark as completed ',
+            }, 
+            liTwo: {
+                strong: '2. ',
+                span:' Local Storage Integration: All tasks are saved in the browser`s local storage. This ensures that even after a page reload or browser restart, all tasks remain intact.',
+            }, 
+            liThree: {
+                strong: '3. ',
+                span: ' Automatic Save: Any changes to the tasks (add, delete, mark as complete) are automatically saved to local storage.',
+            }, 
+            liFour: {
+                strong: '4. ',
+                span:' Responsive Design: The application is designed to be responsive, ensuring it looks and functions well on various devices, including desktops, tablets, and smartphones.',
+            }, 
+            liFive: {
+                strong: '5. ',
+                span:' Clear Visual Indicators: Tasks are visually distinct based on their status (completed or pending).',
+            }, 
         },
 
         projectOutcome: {
             name: 'Project Outcome:',
-            liOne: '1. User Convenience: Provided users with a reliable tool to manage their daily tasks effectively.',
-            liTwo: '2. Data Persistence: Ensured users do not lose their task data even after closing the browser or refreshing the page.',
-            liThree: '3. User Engagement: Increased user engagement by providing a simple, easy-to-use interface for task management.',
+            liOne: {
+                strong: '1. ',
+                span:' User Convenience: Provided users with a reliable tool to manage their daily tasks effectively.',
+            },
+            liTwo: {
+                strong: '2. ',
+                span:' Data Persistence: Ensured users do not lose their task data even after closing the browser or refreshing the page.',
+            },
+            liThree: {
+                strong: '3. ',
+                span:' User Engagement: Increased user engagement by providing a simple, easy-to-use interface for task management.',
+            }, 
         }
     },
     {
@@ -360,7 +408,7 @@ const works = [
         url: 'https://weather-7dh3.onrender.com',
         nameOfProject: 'Weather',
         descriptionOfProject: 'A web app that enables users to view weather forecasts and obtain the most current weather updates. Apart from searching, the application also has search feature for easy location of forecasts for different cities. Users can access temperature, moisture content, wind speed and other key meteorological indicators quickly through the interface. ',
-    
+
         frontend: {
 
             name: 'Frontend',
@@ -403,20 +451,54 @@ const works = [
             },
         },
 
+        // features: {
+        //     name: 'Features',
+        //     liOne: '1. Current Weather: Displays the current weather conditions, including temperature, humidity, wind speed, and weather description.',
+        //     liTwo: '2. Geolocation API Integration: Automatically detects the user`s location to provide accurate local weather information.',
+        //     liThree: '3. Manual Location Search: Allows users to manually search for weather information by entering a city name.',
+        //     liFour: '4. Responsive Design: Ensures the application looks and functions well on various devices, including desktops, tablets, and smartphones.',
+        //     liFive: '5. SVG Icons: Utilizes scalable and high-quality SVG icons to represent different weather conditions visually.',
+        // },
+
         features: {
             name: 'Features',
-            liOne: '1. Current Weather: Displays the current weather conditions, including temperature, humidity, wind speed, and weather description.',
-            liTwo: '2. Geolocation API Integration: Automatically detects the user`s location to provide accurate local weather information.',
-            liThree: '3. Manual Location Search: Allows users to manually search for weather information by entering a city name.',
-            liFour: '4. Responsive Design: Ensures the application looks and functions well on various devices, including desktops, tablets, and smartphones.',
-            liFive: '5. SVG Icons: Utilizes scalable and high-quality SVG icons to represent different weather conditions visually.',
+            liOne: {
+                strong: '1. ',
+                span: 'Current Weather: Displays the current weather conditions, including temperature, humidity, wind speed, and weather description.',
+            },
+            liTwo: {
+                strong: '2. ',
+                span: 'Geolocation API Integration: Automatically detects the user`s location to provide accurate local weather information.',
+            },
+            liThree: {
+                strong: '3. ',
+                span: 'Manual Location Search: Allows users to manually search for weather information by entering a city name.',
+            },
+            liFour: {
+                strong: '4. ',
+                span: 'Responsive Design: Ensures the application looks and functions well on various devices, including desktops, tablets, and smartphones.',
+            },
+            liFive: {
+                strong: '5. ',
+                span: 'SVG Icons: Utilizes scalable and high-quality SVG icons to represent different weather conditions visually.',
+
+            },
         },
 
         projectOutcome: {
             name: 'Project Outcome:',
-            liOne: '1. User Convenience: Provided users with real-time weather information based on their current location, enhancing their daily planning.',
-            liTwo: '2. Data Accuracy: Ensured accurate and up-to-date weather data through the integration of a reliable weather API.',
-            liThree: '3. User Engagement: Increased user engagement with a clean, responsive design and visually appealing weather icons.',
+            liOne: {
+                strong: '1. ',
+                span: ' User Convenience: Provided users with real-time weather information based on their current location, enhancing their daily planning.',
+            },
+            liTwo: {
+                strong: '2. ',
+                span: 'Data Accuracy: Ensured accurate and up-to-date weather data through the integration of a reliable weather API.',
+            },
+            liThree: {
+                strong: '3. ',
+                span: ' User Engagement: Increased user engagement with a clean, responsive design and visually appealing weather icons.',
+            }
         }
     },
     {
@@ -496,13 +578,13 @@ const works = [
         url: 'https://weather-7dh3.onrender.com',
         nameOfProject: 'Wishfriends',
         descriptionOfProject: 'A social platform for creating and sharing wishlists. Users create profiles with publishable wishlists visible to others. Features include an activity feed, messenger, and anonymous gift reservation, ensuring wishlist creators can`t see what`s been reserved, preserving the element of surprise.',
-    
+
         frontend: {
 
             name: 'Frontend',
             liOne: {
-                strong: 'In progress',
-                span: ''
+                strong: ' ',
+                span: 'In progress'
             },
             liTwo: {
                 strong: '',
@@ -526,8 +608,8 @@ const works = [
 
             name: 'Backend',
             liOne: {
-                strong: 'In progress',
-                span: '',
+                strong: ' ',
+                span: 'In progress',
             },
             liTwo: {
                 strong: '',
@@ -541,18 +623,42 @@ const works = [
 
         features: {
             name: 'Features',
-            liOne: 'In progress',
-            liTwo: '',
-            liThree: '',
-            liFour: '',
-            liFive: '',
+            liOne: {
+                strong: ' ',
+                span:'In progress',
+            } ,
+            liTwo: {
+                strong: '',
+                span:'',
+            }, 
+            liThree: {
+                strong: '',
+                span:'',
+            } ,
+            liFour: {
+                strong: '',
+                span:'',
+            }  ,
+            liFive: {
+                strong: '',
+                span:'',
+            },
         },
 
         projectOutcome: {
             name: 'Project Outcome:',
-            liOne: 'In progress',
-            liTwo: '',
-            liThree: '',
+            liOne: {
+                strong: ' ',
+                span:'In progress',
+            },
+            liTwo: {
+                strong: '',
+                span: '',
+            } ,
+            liThree: {
+                strong: '',
+                span:'',
+            } ,
         }
     },
 ]
