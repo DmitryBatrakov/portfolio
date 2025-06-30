@@ -9,8 +9,8 @@ export default function DownloadButton() {
 
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = process.env.PUBLIC_URL + '/files/Dmitry Batrakov CV English.pdf';
-        link.download = 'Dmitry Batrakov CV English.pdf';
+        link.href = process.env.PUBLIC_URL + '/files/Batrakov_Dmitry_CV.pdf';
+        link.download = 'Dmitry Batrakov CV';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
