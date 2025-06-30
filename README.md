@@ -29,16 +29,16 @@ This is my personal portfolio website showcasing selected projects, experience, 
 ![Homepage](./screenshot/firstSection.png)
 
 ### Projects Section
-![Projects](.screenshots/projectSection.png)
+![Projects](./screenshot/projectSection.png)
 
 ### Portfolio Section
-![Portfolio](.screenshots/portfolioSection.png)
+![Portfolio](./screenshot/portfolioSection.png)
 
 ### About Section
-![About](.screenshots/aboutSection.png)
+![About](./screenshot/aboutSection.png)
 
 ### Contact Section
-![Contact](.screenshots/contactSection.png)
+![Contact](./screenshot/contactSection.png)
 
 ## Author
 
